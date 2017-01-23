@@ -13,7 +13,7 @@ In Data Poetics, we build upon our skills developed in Code 1 by moving beyond t
 
 Through our study of the applications of regular expressions, Markov chains, web scraping, data visualization, and semantic networks, we’ll write client and server-side Javascript, creating browser extensions, Twitter bots, and our own custom APIs, drawing from speculative and critical design to investigate the connections between culture, technology, and information.
 
-##### Learning Outcomes
+#### Learning Outcomes
 
 1 - Demonstrate knowledge and application of fundamental front-end and server-side programming skills in Javascript, using P5.js and Node.js.
 
@@ -25,7 +25,7 @@ Through our study of the applications of regular expressions, Markov chains, web
 
 5 - Critically discuss and create work drawing from historical precedents of computational literature, critical design, and data visualization, as well as understanding the internet as a site for potential intervention.
 
-##### Assessable Tasks
+#### Assessable Tasks
 
 **Class Participation** - Participation in this class is vital. This includes being on time, asking questions if you need help, being engaged with the material, and seeking out solutions or help when you run into difficulties. If I have to pursue you in order to get you to turn in work or address chronic low effort, absences, or tardiness, it’s a bad sign. No phones, social media, etc. in class. Use common sense - I’ll be present and engaged and I expect you all to be too.
 
@@ -37,89 +37,92 @@ Through our study of the applications of regular expressions, Markov chains, web
 
 **Extra Credit / Special Considerations** - Discuss with me if you have any special considerations (for example, if you’ve covered this material before). Extra credit may or may not be distributed based on effort and class participation.
 
-##### Final Grade Calculation
+#### Final Grade Calculation
 
 Class Participation	- 10%
+
 Homework - 40%
+
 Midterm	- 20%
+
 Final - 30%
 
-##### Course Outline
+#### Course Outline
 
 **Week 1 - January 23**
-HTML DOM manipulation in developer tools
-Terminal, Git, Github.com review
-*Homework: Set up github.io site, Terminal/HTML/CSS review and experimentation*
+- HTML DOM manipulation in developer tools
+- Terminal, Git, Github.com review
+- *Homework: Set up github.io site, Terminal/HTML/CSS review and experimentation*
 
 **Week 2 - January 30**
-Introduction to Javascript, HTML, CSS, DOM
-P5.js, differences between Processing and P5.js
-P5 app, SimpleHTTPServer
-Sublime Text, Package Control, Markdown syntax
-*Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
+- Introduction to Javascript, HTML, CSS, DOM
+- P5.js, differences between Processing and P5.js
+- P5 app, SimpleHTTPServer
+- Sublime Text, Package Control, Markdown syntax
+- *Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
 
 **Week 3 - February 6**
-APIs in P5.js, JSON, data visualization
-Wordnik, New York Times, openweathermap
-*Homework: Data visualization in P5.js, Eloquent Javascript Ch. 3*
+- APIs in P5.js, JSON, data visualization
+- Wordnik, New York Times, openweathermap
+- *Homework: Data visualization in P5.js, Eloquent Javascript Ch. 3*
 
 **Week 4 - February 13**
-Oulipo, DADA and the cut-up method, Erasures
-String and text manipulation in Javascript
-Regular Expressions
-*Homework: String manipulation experiment with Regex, Eloquent Javascript Ch. 4*
+- Oulipo, DADA and the cut-up method, Erasures
+- String and text manipulation in Javascript
+- Regular Expressions
+- *Homework: String manipulation experiment with Regex, Eloquent Javascript Ch. 4*
 
 **Week 5 - February 27**
-Text analysis, readability index, concordances
-Poetic forms
-Browser extensions part 1
-*Homework: Start midterm*
+- Text analysis, readability index, concordances
+- Poetic forms
+- Browser extensions part 1
+- *Homework: Start midterm*
 
 **Week 6 - March 6**
-Browser extensions part 2
-*Homework: Complete midterm*
+- Browser extensions part 2
+- *Homework: Complete midterm*
 
 **Week 7 - March 13**
-Text Generation, markov chains, n-grams, grammars
-Rita.js, Project Gutenberg
-Node.js, NPM, Express
-*Homework: Server-side text generation*
+- Text Generation, markov chains, n-grams, grammars
+- Rita.js, Project Gutenberg
+- Node.js, NPM, Express
+- *Homework: Server-side text generation*
 
 **Week 8 - March 27**
-Twitter bots (polling)
-Heroku, AWS, now.js
-*Homework: Twitter bot*
+- Twitter bots (polling)
+- Heroku, AWS, now.js
+- *Homework: Twitter bot*
 
 **Week 9 - April 3**
-Twitter bots (streaming)
-Databases, mongodb
-*Homework: Database test*
+- Twitter bots (streaming)
+- Databases, mongodb
+- *Homework: Database test*
 
 **Week 10 - April 10**
-Custom APIs, data models
-*Homework: Custom API and data model*
+- Custom APIs, data models
+- *Homework: Custom API and data model*
 
 **Week 11 - April 17**
-Web scraping
-*Homework: Start final project*
+- Web scraping
+- *Homework: Start final project*
 
 **Week 12 - April 24**
-Other JS frameworks and tools
-D3, three.js, two.js, Angular, React
-*Homework: Continue final project*
+- Other JS frameworks and tools
+- D3, three.js, two.js, Angular, React
+- *Homework: Continue final project*
 
 **Week 13 - May 1**
-In-class work
-*Homework: Continue final project*
+- In-class work
+- *Homework: Continue final project*
 
 **Week 14 - May 8**
-In class work
-*Homework: Complete final project*
+- In class work
+- *Homework: Complete final project*
 
 **Week 15 - May 15**
-Final project presentations
+- Final project presentations
 
-##### Readings
+#### Readings
 
 (Adjustments TBA)
 
