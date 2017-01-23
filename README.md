@@ -13,7 +13,7 @@ In Data Poetics, we build upon our skills developed in Code 1 by moving beyond t
 
 Through our study of the applications of regular expressions, Markov chains, web scraping, data visualization, and semantic networks, we’ll write client and server-side Javascript, creating browser extensions, Twitter bots, and our own custom APIs, drawing from speculative and critical design to investigate the connections between culture, technology, and information.
 
-#### Learning Outcomes
+### Learning Outcomes
 
 1 - Demonstrate knowledge and application of fundamental front-end and server-side programming skills in Javascript, using P5.js and Node.js.
 
@@ -25,7 +25,7 @@ Through our study of the applications of regular expressions, Markov chains, web
 
 5 - Critically discuss and create work drawing from historical precedents of computational literature, critical design, and data visualization, as well as understanding the internet as a site for potential intervention.
 
-#### Assessable Tasks
+### Assessable Tasks
 
 **Class Participation** - Participation in this class is vital. This includes being on time, asking questions if you need help, being engaged with the material, and seeking out solutions or help when you run into difficulties. If I have to pursue you in order to get you to turn in work or address chronic low effort, absences, or tardiness, it’s a bad sign. No phones, social media, etc. in class. Use common sense - I’ll be present and engaged and I expect you all to be too.
 
@@ -37,7 +37,7 @@ Through our study of the applications of regular expressions, Markov chains, web
 
 **Extra Credit / Special Considerations** - Discuss with me if you have any special considerations (for example, if you’ve covered this material before). Extra credit may or may not be distributed based on effort and class participation.
 
-#### Final Grade Calculation
+### Final Grade Calculation
 
 Class Participation	- 10%
 
@@ -47,7 +47,7 @@ Midterm	- 20%
 
 Final - 30%
 
-#### Course Outline
+### Course Outline
 
 **Week 1 - January 23**
 - HTML DOM manipulation in developer tools
@@ -122,7 +122,7 @@ Final - 30%
 **Week 15 - May 15**
 - Final project presentations
 
-#### Readings
+### Readings
 
 (Adjustments TBA)
 
