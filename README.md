@@ -126,11 +126,11 @@ Final - 30%
 
 (Adjustments TBA)
 
-Eloquent Javascript - Marijn Haverbeke
-A User’s Guide To Détournement - Guy Debord, Gil J. Wolman
-Uncreative Writing, Chapter 2, Language as Material - Ken Goldsmith
-Programmed Visions, Computers That Roar - Wendy Hui Kyong Chun
-Hertzian Tales, Chapter 5, Real Fiction - Anthony Dunne
-Virtual Muse: Experiments in Computer Poetry - Charles Hartman
-Introduction to Electronic Literature: A Freeware Guide
+- Eloquent Javascript - Marijn Haverbeke
+- A User’s Guide To Détournement - Guy Debord, Gil J. Wolman
+- Uncreative Writing, Chapter 2, Language as Material - Ken Goldsmith
+- Programmed Visions, Computers That Roar - Wendy Hui Kyong Chun
+- Hertzian Tales, Chapter 5, Real Fiction - Anthony Dunne
+- Virtual Muse: Experiments in Computer Poetry - Charles Hartman
+- Introduction to Electronic Literature: A Freeware Guide
 
