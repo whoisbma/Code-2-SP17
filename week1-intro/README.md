@@ -1,6 +1,6 @@
 ## Week 1 - Class Intro, Terminal & Github Review
 
-January 23, 2017
+###### January 23, 2017
 
 Basic Recap:
 
