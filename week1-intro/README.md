@@ -2,8 +2,6 @@
 
 ###### January 23, 2017
 
-Basic Recap:
-
 * In this class we're making things primarily with javascript via P5.js and Node.js, using Terminal and github.
 * How to get an A: show up, do the homework, be reasonable, try your best!
 * Technical questions should go in the Canvas discussion board.
@@ -14,8 +12,11 @@ Basic Recap:
 #### Homework overview (details below):
 
 1- Open the Developer Tools / Console in a browser, and change around some HTML. Save an screenshot of what you created with your "hacks".
+
 2- Do the Terminal practice listed below, and get through a few sections of [http://cli.learncodethehardway.org/book/](http://cli.learncodethehardway.org/book/).
+
 3- Review some basic HTML and CSS with [HTML & CSS intro](https://www.codecademy.com/learn/web)
+
 4- Set up your github.io page, and create a simple HTML page for your first homework assignment. Create a subfolder structure in your github.io directory to upload your homeworks to, like *username.github.io/01/index.html*, etc. Your first assignment should be some html and css experimentation, also displaying the aforementioned screenshot of your hack results.
 
 #### HTML manipulation
