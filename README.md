@@ -58,7 +58,7 @@ Final - 30%
 - Introduction to Javascript, HTML, CSS, DOM
 - P5.js, differences between Processing and P5.js
 - P5 app, SimpleHTTPServer
-- Sublime Text, Package Control, Markdown syntax
+- Sublime Text, Package Control, GitGutter, SublimeLinter, Markdown preview
 - *Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
 
 **Week 3 - February 6**
@@ -130,7 +130,6 @@ Final - 30%
 - A User’s Guide To Détournement - Guy Debord, Gil J. Wolman
 - Uncreative Writing, Chapter 2, Language as Material - Ken Goldsmith
 - Programmed Visions, Computers That Roar - Wendy Hui Kyong Chun
-- Hertzian Tales, Chapter 5, Real Fiction - Anthony Dunne
 - Virtual Muse: Experiments in Computer Poetry - Charles Hartman
 - Introduction to Electronic Literature: A Freeware Guide
 
