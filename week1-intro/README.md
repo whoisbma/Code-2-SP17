@@ -5,6 +5,7 @@
 * In this class we're making things primarily with javascript via P5.js and Node.js, using Terminal and github.
 * How to get an A: show up, do the homework, be reasonable, try your best!
 * Technical questions should go in the Canvas discussion board.
+* Office hours are by appointment only.
 * If you have special considerations of any kind, talk to me or set up an appointment, my email is bma@newschool.edu.
 * Syllabus should be in your email, and also in the Canvas syllabus page. 
 * The class repo [https://github.com/whoisbma/Code-2-SP17](https://github.com/whoisbma/Code-2-SP17) will be your main resource for the class, with homework assignments and examples.
@@ -19,20 +20,17 @@
 
 4- Set up your github.io page, and create a simple HTML page for your first homework assignment. Create a subfolder structure in your github.io directory to upload your homeworks to, like *username.github.io/01/index.html*, etc. Your first assignment should be some html and css experimentation, also displaying the aforementioned screenshot of your hack results.
 
+-----
+
 #### HTML manipulation
 
 In Chrome, open View -> Developer -> Javascript Console. On a Mac, the shortcut is Command-Option-i.
 
 Click on the "Elements" tab and poke around. Expand sections of HTML via the little arrows to the left. Change some code by double-clicking on a section of text, changing it, then pressing Enter/Return.
 
-Try breaking things, replacing things. Take a screenshot
+Try breaking things, replacing things. Take a screenshot, and publish it to your week 1 github.io page (see below).
 
-Check out these projects:
-
--
--
--
--
+-----
 
 #### Terminal
 
@@ -75,6 +73,8 @@ Practice using these commands and techniques:
 	* Very old-school, but very powerful when you know how to use it. You aren't required to use this, but I recommend giving it a try.
 	* Try this Vim tutorial if you want to learn more: [http://www.openvim.com/](http://www.openvim.com/)
 
+_____
+
 #### Git
 
 Git is **source control software**. Source control software lets programmers back up snapshots of file changes over the process of building a project, which means that any change can be reverted at any time. 
@@ -85,6 +85,8 @@ Git is also very powerful for collaboration, as it allows you to check out indep
 
 As relatively new programmers however, the main way we will use Git is simply in order to push repositories to Github.
 
+_____
+
 #### Github
 
 Github is not Git. Git is software that runs locally on your computer, storing commits in a hidden directory structure for you to access when needed. Github is a website that lets us connect a "Remote" to our repositories!
@@ -92,6 +94,8 @@ Github is not Git. Git is software that runs locally on your computer, storing c
 The purpose for this is to back up our changes to an external source. Also, being on the web, this means that you can share your code with others. Finally, since Github Pages allows us to turn a repo into a hosted website, we can publish content to the web very easily. More on this later.
 
 There are two main approaches towards getting set up with a Git repo and a connected remote on Github. Both processes will ask you to log in and potentially edit some user information for Git - just follow the instructions if it interrupts you.
+
+_____
 
 #### Setting up a local repo, then connecting and pushing to a remote
 
@@ -115,6 +119,8 @@ The first is to set things up locally, then connect it to Github.
 
 9- Now if you refresh your repo on github.com, you should see your files there.
 
+_____
+
 #### Setting up a remote, then cloning to your local system
 
 The other approach is to set things up on Github, then clone it to your local system.
@@ -126,6 +132,8 @@ The other approach is to set things up on Github, then clone it to your local sy
 3- No need to initialize, now all you have to do is run ```git clone ``` followed by the link of your remote, and it will grab the remote and initialize a new repo locally with its contents in a folder named for the remote repo.
 
 4- Now you can add/change files, run ```git add```, ```git commit```, and ```git push origin master``` as before to update changes.
+
+_____
 
 #### Github Pages
 
