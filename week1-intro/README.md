@@ -96,14 +96,22 @@ There are two main approaches towards getting set up with a Git repo and a conne
 
 The first is to set things up locally, then connect it to Github.
 
-1- Open Terminal, and make sure you ```cd``` to the directory you want to turn into a git repository. 
+1- Open Terminal, and make sure you ```cd``` to the directory you want to turn into a git repository.
+
 2- For example: ```cd ~/Documents/Code2```
+
 3- Initialize this directory as a Git repo with ```git init```
+
 4- Now you can connect to a remote any time you want. I would do it now - go to github.com, create a new repository by pressing the "+" button in the top right corner, then grab the link it gives you on the following page with all the instructions.
+
 5- Connect your remote in terminal with ```git remote add origin``` followed by your remote link.
+
 6- Add files for git to track: ```git add ``` then the file you want to add, or ```.``` for the current directory.
+
 7- Commit any changes to the tracked files: ```git commit -m "enter a commit message here in quotes"```
+
 8- Push your commits to the remote: ```git push origin master```
+
 9- Now if you refresh your repo on github.com, you should see your files there.
 
 ###### Setting up a remote, then cloning to your local system
@@ -111,11 +119,13 @@ The first is to set things up locally, then connect it to Github.
 The other approach is to set things up on Github, then clone it to your local system.
 
 1- Open github.com, then create a repo, the same way as before. This time however you could check the "create README" option so its not an empty repository you're trying to clone.
+
 2- Once created, open Terminal and navigate to the folder you want to create the local repo inside of.
+
 3- No need to initialize, now all you have to do is run ```git clone ``` followed by the link of your remote, and it will grab the remote and initialize a new repo locally with its contents in a folder named for the remote repo.
+
 4- Now you can add/change files, run ```git add```, ```git commit```, and ```git push origin master``` as before to update changes.
 
 ###### Github Pages
 
 As mentioned, Github is also extremely useful in that it offers a "Github Page", which is how homework will be turned in for this class. Follow the guide here to set it up if you haven't already in class: [https://pages.github.com/](https://pages.github.com/)
-	
