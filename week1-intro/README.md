@@ -11,7 +11,7 @@ Basic Recap:
 * Syllabus should be in your email, and also in the Canvas syllabus page. 
 * The class repo [https://github.com/whoisbma/Code-2-SP17](https://github.com/whoisbma/Code-2-SP17) will be your main resource for the class, with homework assignments and examples.
 
-###### Homework overview (details below):
+#### Homework overview (details below):
 
 1- Open the Developer Tools / Console in a browser, and change around some HTML. Save an screenshot of what you created with your "hacks".
 2- Do the Terminal practice listed below, and get through a few sections of [http://cli.learncodethehardway.org/book/](http://cli.learncodethehardway.org/book/).
@@ -84,7 +84,7 @@ Git is also very powerful for collaboration, as it allows you to check out indep
 
 As relatively new programmers however, the main way we will use Git is simply in order to push repositories to Github.
 
-##### Github
+#### Github
 
 Github is not Git. Git is software that runs locally on your computer, storing commits in a hidden directory structure for you to access when needed. Github is a website that lets us connect a "Remote" to our repositories!
 
@@ -92,7 +92,7 @@ The purpose for this is to back up our changes to an external source. Also, bein
 
 There are two main approaches towards getting set up with a Git repo and a connected remote on Github. Both processes will ask you to log in and potentially edit some user information for Git - just follow the instructions if it interrupts you.
 
-##### Setting up a local repo, then connecting and pushing to a remote
+#### Setting up a local repo, then connecting and pushing to a remote
 
 The first is to set things up locally, then connect it to Github.
 
@@ -114,7 +114,7 @@ The first is to set things up locally, then connect it to Github.
 
 9- Now if you refresh your repo on github.com, you should see your files there.
 
-##### Setting up a remote, then cloning to your local system
+#### Setting up a remote, then cloning to your local system
 
 The other approach is to set things up on Github, then clone it to your local system.
 
@@ -126,6 +126,6 @@ The other approach is to set things up on Github, then clone it to your local sy
 
 4- Now you can add/change files, run ```git add```, ```git commit```, and ```git push origin master``` as before to update changes.
 
-##### Github Pages
+#### Github Pages
 
 As mentioned, Github is also extremely useful in that it offers a "Github Page", which is how homework will be turned in for this class. Follow the guide here to set it up if you haven't already in class: [https://pages.github.com/](https://pages.github.com/)
