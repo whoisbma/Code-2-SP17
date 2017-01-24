@@ -4,7 +4,7 @@
 
 * In this class we're making things primarily with javascript via P5.js and Node.js, using Terminal and github.
 * How to get an A: show up, do the homework, be reasonable, try your best!
-* Technical questions should go in the Canvas discussion board.
+* Technical questions should go in the Canvas discussion board here: [https://canvas.newschool.edu/courses/1342702/discussion_topics/4375449](https://canvas.newschool.edu/courses/1342702/discussion_topics/4375449)
 * Office hours are by appointment only.
 * If you have special considerations of any kind, talk to me or set up an appointment, my email is bma@newschool.edu.
 * Syllabus should be in your email, and also in the Canvas syllabus page. 
