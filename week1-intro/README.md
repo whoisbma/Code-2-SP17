@@ -10,7 +10,7 @@
 * Syllabus should be in your email, and also in the Canvas syllabus page. 
 * The class repo [https://github.com/whoisbma/Code-2-SP17](https://github.com/whoisbma/Code-2-SP17) will be your main resource for the class, with homework assignments and examples.
 
-#### Homework overview (details below):
+### Homework overview
 
 1- Open the Developer Tools / Console in a browser, and change around some HTML. Save an screenshot of what you created with your "hacks".
 
@@ -21,6 +21,8 @@
 4- Set up your github.io page, and create a simple HTML page for your first homework assignment. Create a subfolder structure in your github.io directory to upload your homeworks to, like *username.github.io/01/index.html*, etc. Your first assignment should be some html and css experimentation, also displaying the aforementioned screenshot of your hack results.
 
 -----
+
+### Homework details/guide
 
 #### HTML manipulation
 
