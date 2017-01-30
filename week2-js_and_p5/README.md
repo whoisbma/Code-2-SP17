@@ -7,9 +7,9 @@
 	- set up a repo on github.com, then ```git clone``` it to the location you want your local to be in.
 	- or, ```git init``` a local directory to initialize it as a git repo, then ```git add remote origin <your remote repo link>``` to connect it.
 	- three steps to remember:
-		1-	```git add <your file, or . for all in your current directory>```
-		2- ```git commit -m "<your commit message>"```
-		3- ```git push origin master```
+		-	```git add <your file, or . for all in your current directory>```
+		- ```git commit -m "<your commit message>"```
+		- ```git push origin master```
 - if you're still having trouble getting git/github started and understanding what is going on try [http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) and [http://readwrite.com/2013/10/02/github-for-beginners-part-2/](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)
 - for a more comprehensive understanding of git, check out the Git book here: [https://git-scm.com/book/en/v2/Getting-Started-Git-Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
