@@ -17,7 +17,7 @@
 
 **GITHUB.IO PAGES FOR HOMEWORK**
 - Set up your github.io page. You can use any general structure you like but just make sure to have a page that will link to every one of your assignments.
-- Github pages guide: [https://pages.github.com/](here)
+- Github pages guide: [here](https://pages.github.com/)
 
 ------
 
@@ -28,10 +28,10 @@
 ------
 
 **MARKDOWN**
-- Markdown is a simple [https://en.wikipedia.org/wiki/Markup_language](markup language) that plays very nicely with Github. Github repos online will automatically render any file saved as README.md in the repo to serve as a user-facing text document with simple styling like headers, lists, images, and so on.
-- [https://github.com/patriciogonzalezvivo/glslViewer](A good example of using a README.md in a github repo to give all sorts of information (scroll down))
-- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](Markdown Syntax Cheatsheet)
-- [https://guides.github.com/features/mastering-markdown/](Markdown Github guide)
+- Markdown is a simple [markup language](https://en.wikipedia.org/wiki/Markup_language) that plays very nicely with Github. Github repos online will automatically render any file saved as README.md in the repo to serve as a user-facing text document with simple styling like headers, lists, images, and so on.
+- [A good example of using a README.md in a github repo to give all sorts of information (scroll down)](https://github.com/patriciogonzalezvivo/glslViewer)
+- [Markdown Syntax Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Github guide](https://guides.github.com/features/mastering-markdown/)
 
 - README.md
 
