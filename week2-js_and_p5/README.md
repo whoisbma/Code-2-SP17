@@ -3,8 +3,11 @@
 ###### January 30, 2017
 
 **github and github.io**
-- review
+- *review*
+	- Set up your github.io page. You can use any general structure you like but just make sure to have a page that will link to every one of your assignments.
+	- reminder that the guide is [https://pages.github.com/](here)
 - windows users
+	- please follow this guide
 - markdown
 
 **markdown syntax**
@@ -19,7 +22,7 @@
 - changing user settings
 - gitgutter
 - color pick
-- markdown preview
+- markdown preview sublime text package
 
 **browsers, websites, and webservers**
 - browser sends HTTP request to server
