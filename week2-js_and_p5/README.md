@@ -2,30 +2,42 @@
 
 ###### January 30, 2017
 
-**github**
-- reminder: the process to get a local repo connected to a remote is:
-	- set up a repo on github.com, then ```git clone``` it to the location you want your local to be in.
-	- or, ```git init``` a local directory to initialize it as a git repo, then ```git add remote origin <your remote repo link>``` to connect it.
-	- three steps to remember:
+**GIT AND GITHUB**
+- Reminder: the process to get a local repo connected to a remote is:
+	- Set up a repo on github.com, then ```git clone``` it to the location you want your local to be in.
+	- Or, ```git init``` a local directory to initialize it as a git repo, then ```git add remote origin <your remote repo link>``` to connect it.
+	- Three steps to remember to commit and push your changes to remote:
 		-	```git add <your file, or . for all in your current directory>```
 		- ```git commit -m "<your commit message>"```
 		- ```git push origin master```
-- if you're still having trouble getting git/github started and understanding what is going on try [http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) and [http://readwrite.com/2013/10/02/github-for-beginners-part-2/](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)
-- for a more comprehensive understanding of git, check out the Git book here: [https://git-scm.com/book/en/v2/Getting-Started-Git-Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+- If you're still having trouble getting git/github started and understanding what is going on try [http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) and [http://readwrite.com/2013/10/02/github-for-beginners-part-2/](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)
+- For a more comprehensive understanding of git, check out the Git book here: [https://git-scm.com/book/en/v2/Getting-Started-Git-Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
-**github.io pages for homework**
+------
+
+**GITHUB.IO PAGES FOR HOMEWORK**
 - Set up your github.io page. You can use any general structure you like but just make sure to have a page that will link to every one of your assignments.
-- github pages guide: [https://pages.github.com/](here)
+- Github pages guide: [https://pages.github.com/](here)
 
-**git for windows users**
-- please follow [this guide](https://help.github.com/articles/set-up-git/#platform-windows) to install Github Desktop in order to use Git Shell. Git Shell is installed along with Github Desktop and will take git terminal commands.
-- from the 5 minutes I spent in class looking at git shell, it seemed to work fine especially when cloning a Repo
+------
 
-**markdown**
-- markdown
+**GIT FOR WINDOWS USERS**
+- Please follow [this guide](https://help.github.com/articles/set-up-git/#platform-windows) to install Github Desktop in order to use Git Shell. Git Shell is installed along with Github Desktop and will take git terminal commands.
+- Based on the 5 minutes I spent in class looking at Git Shell, it seemed to work fine especially when cloning a Repo to a local directory
+
+------
+
+**MARKDOWN**
+- Markdown is a simple [https://en.wikipedia.org/wiki/Markup_language](markup language) that plays very nicely with Github. Github repos online will automatically render any file saved as README.md in the repo to serve as a user-facing text document with simple styling like headers, lists, images, and so on.
+- [https://github.com/patriciogonzalezvivo/glslViewer](A good example of using a README.md in a github repo to give all sorts of information (scroll down))
+- [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](Markdown Syntax Cheatsheet)
+- [https://guides.github.com/features/mastering-markdown/](Markdown Github guide)
+
 - README.md
 
-**sublime text**
+------
+
+**SUBLIME TEXT**
 - IDEs. vs. fancy text editors vs. normal text editors
 - fun shortcuts
 - command palette
@@ -36,7 +48,7 @@
 - color pick
 - markdown preview sublime text package
 
-**browsers, websites, and webservers**
+**BROWSERS, WEBSITES, AND WEBSERVERS**
 - browser sends HTTP request to server
 - server sends back html and other files
 - browser loads html and executes javascript
