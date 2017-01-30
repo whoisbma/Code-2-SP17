@@ -3,6 +3,13 @@
 ###### January 30, 2017
 
 **github**
+- reminder: the process to get a local repo connected to a remote is:
+	- set up a repo on github.com, then ```git clone``` it to the location you want your local to be in.
+	- or, ```git init``` a local directory to initialize it as a git repo, then ```git add remote origin <your remote repo link>``` to connect it.
+	- three steps to remember:
+		1-	```git add <your file, or . for all in your current directory>```
+		2- ```git commit -m "<your commit message>"```
+		3- ```git push origin master```
 - if you're still having trouble getting git/github started and understanding what is going on try [http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) and [http://readwrite.com/2013/10/02/github-for-beginners-part-2/](http://readwrite.com/2013/10/02/github-for-beginners-part-2/)
 - for a more comprehensive understanding of git, check out the Git book here: [https://git-scm.com/book/en/v2/Getting-Started-Git-Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
@@ -12,10 +19,10 @@
 
 **git for windows users**
 - please follow [this guide](https://help.github.com/articles/set-up-git/#platform-windows) to install Github Desktop in order to use Git Shell. Git Shell is installed along with Github Desktop and will take git terminal commands.
+- from the 5 minutes I spent in class looking at git shell, it seemed to work fine especially when cloning a Repo
 
+**markdown**
 - markdown
-
-**markdown syntax**
 - README.md
 
 **sublime text**
