@@ -32,13 +32,12 @@
 - [A good example of using a README.md in a github repo to give all sorts of information (scroll down)](https://github.com/patriciogonzalezvivo/glslViewer)
 - [Markdown Syntax Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Markdown Github guide](https://guides.github.com/features/mastering-markdown/)
-
-- README.md
+- Start getting in the habit of adding a README.md file to any github repo you are setting up.
 
 ------
 
 **SUBLIME TEXT**
-- IDEs. vs. fancy text editors vs. normal text editors
+- Sublime Text is a basically a fancy text editor. This is in contrast to Integrated Development Environments (like XCode or Processing) that also handle compiling and executing your code - Sublime Text doesn't do that by itself. However it is deceptively powerful. We'll get more into what Sublime Text offers throughout the semester.
 - fun shortcuts
 - command palette
 - package control
