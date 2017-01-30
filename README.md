@@ -55,15 +55,18 @@ Final - 30%
 - *Homework: Set up github.io site, Terminal/HTML/CSS review and experimentation*
 
 **Week 2 - January 30**
-- Introduction to Javascript, HTML, CSS, DOM
+- Introduction to Javascript
+- Sublime Text, Package Control, GitGutter, Markdown preview
 - P5.js, differences between Processing and P5.js
-- P5 app, SimpleHTTPServer
-- Sublime Text, Package Control, GitGutter, SublimeLinter, Markdown preview
+- P5 app vs. manual P5 app setup, SimpleHTTPServer
 - *Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
 
 **Week 3 - February 6**
+- P5 sample files
+- HTML canvas element, HTML DOM interaction
 - APIs in P5.js, JSON, data visualization
 - Wordnik, New York Times, openweathermap
+- SublimeLinter
 - *Homework: Data visualization in P5.js, Eloquent Javascript Ch. 3*
 
 **Week 4 - February 13**

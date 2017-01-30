@@ -2,11 +2,41 @@
 
 ###### January 30, 2017
 
-* Intro to P5.js
-* P5.js app vs. running a server locally
-* Sublime Text, browser plugins
-* Javascript in browser console
-* HTML, CSS, DOM
-* Relationship between a P5.js canvas element and the rest of the page
+**github and github.io**
+- review
+- windows users
+- markdown
+
+**markdown syntax**
+- README.md
+
+**sublime text**
+- IDEs. vs. fancy text editors vs. normal text editors
+- fun shortcuts
+- command palette
+- package control
+- installing packages
+- changing user settings
+- gitgutter
+- color pick
+- markdown preview
+
+**browsers, websites, and webservers**
+- browser sends HTTP request to server
+- server sends back html and other files
+- browser loads html and executes javascript
+
+**javascript**
+- interpreted, untyped, dynamic
+- vars, functions, loops, math, logging
+- running js in the browser
+- embedding javascript in an html file
+- linking javascript in an html file
+
+**p5.js**
+- processing remade in javascript
+- lauren mccarthy
+- p5 app no longer supported
+
 
 ### Homework Overview
