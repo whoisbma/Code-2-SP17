@@ -14,7 +14,7 @@
 
 1- Open the Developer Tools / Console in a browser, and change around some HTML. Save an screenshot of what you created with your "hacks".
 
-2- Do the Terminal practice listed below, and get through a few sections of [http://cli.learncodethehardway.org/book/](http://cli.learncodethehardway.org/book/).
+2- Do the Terminal practice listed below, and get through a few sections of [http://cli.learncodethehardway.org/book/](https://learnpythonthehardway.org/book/appendixa.html).
 
 3- Review some basic HTML and CSS with [HTML & CSS intro](https://www.codecademy.com/learn/web)
 
