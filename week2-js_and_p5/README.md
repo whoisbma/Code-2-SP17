@@ -172,6 +172,24 @@ I do not suggest using the app for this reason. This means we will need to put a
 - Very useful information on converting Processing sketches to P5.js: [https://github.com/processing/p5.js/wiki/Processing-transition](https://github.com/processing/p5.js/wiki/Processing-transition)
 - Check out the [examples](https://p5js.org/examples/) and the [reference](https://p5js.org/reference/).
 
+______
+
+**PYTHON'S SIMPLEHTTPSERVER**
+
+In order to view our work properly in a browser, it needs to be served from a server to a browser. Opening the index.html file locally from the local file system will result in problems. This means you can get it up to your github.io page to render it properly in the browser, but that is a bit of a long process to review some quick changes. Instead, use the `python -m SimpleHTTPServer` command in terminal to create a quick *local server* which will serve your site to the browser.
+
+From
+
+```python -m SimpleHTTPServer```
+
+Or if you are using Python 3, type:
+
+```python -m http.server```
+
+Then visit http://localhost:8000 on your browser.
+
+There are some caveats. The python simple server is relatively slow and displaying content like video will have some issues. But it is enough for what we need it for for now.
+
 ------
 ------
 ------
