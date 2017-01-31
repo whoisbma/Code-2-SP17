@@ -178,7 +178,7 @@ ______
 
 In order to view our work properly in a browser, it needs to be served from a server to a browser. Opening the index.html file locally from the local file system will result in problems. This means you can get it up to your github.io page to render it properly in the browser, but that is a bit of a long process to review some quick changes. Instead, use the `python -m SimpleHTTPServer` command in terminal to create a quick *local server* which will serve your site to the browser.
 
-Use `cd` in terminal to go to the local directory that you want to serve.
+Use `cd` in terminal to go to the local directory that you want to serve, then type:
 
 ```python -m SimpleHTTPServer```
 
