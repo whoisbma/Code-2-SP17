@@ -56,7 +56,22 @@ The web as we experience it via browsers basically boils down to this. We can lo
 
 The other thing that browsers do nowadays is to execute *Javascript*.
 
-**javascript**
+------
+
+**JAVSCRIPT**
+
+Javascript is a [high-level](https://en.wikipedia.org/wiki/High-level_programming_language), [dynamic](https://en.wikipedia.org/wiki/Dynamic_programming_language), [untyped](https://en.wikipedia.org/wiki/Programming_language#Type_system), and [interpreted](https://en.wikipedia.org/wiki/Interpreted_language) programming language. Along with HTML and CSS, Javascript is one of the three core technologies of world wide web content, most websites use it, and all modern web browsers support it.
+
+Unlike when using Processing, we don't have to declare specific data types, like *integers*, *floats*, and *strings* - we only create ***var*** variables. Everything can be a var, essentially. This makes Javascript a very easy-going language, which will handle a lot of things for you under the hood that in a stricter language we would need to be explicit about. However this also results in harder to find bugs and common mistakes for beginners.
+
+It's also important to note that even though we don't declare data types explicitly, variables do have types hidden away from this. We can see them by using the ```typeof``` function.
+
+```
+var myVar = 10;
+console.log(typeof(myVar));
+// result will be 'number'
+```
+
 - interpreted, untyped, dynamic
 - vars, functions, loops, math, logging
 - running js in the browser
@@ -70,3 +85,7 @@ The other thing that browsers do nowadays is to execute *Javascript*.
 
 
 ### Homework Overview
+
+- make a markdown file README.md for your <username>.github.io repo.
+- read chapter 1-2 of Eloquent Javascript
+- 
