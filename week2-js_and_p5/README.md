@@ -138,7 +138,7 @@ We also can write Javascript directly in our html files by including it within a
 </html>
 ```
 
-HTML files full of javascript text might be a little messy looking, so we might want to separate our JS files from our HTML and link them.
+HTML files full of javascript code might be a little messy looking, so we might want to separate our JS files from our HTML and link them.
 
 ```
 <!DOCTYPE html>
@@ -158,12 +158,27 @@ When we use Javascript libraries, we need to link them in this way. One of the J
 ------
 
 **P5.JS**
-- processing remade in javascript
-- lauren mccarthy
-- p5 app no longer supported
 
+![p5.js](https://p5js.org/assets/img/p5js.svg "p5.js")
+
+
+P5.js is essentially a remake of Processing using Javascript instead of Java. This allows us to get Processing sketches onto the web to share easily. It was created by artist and educator [Lauren McCarthy](http://lauren-mccarthy.com/) with the support of the [Processing Foundation](https://processingfoundation.org/).
+
+There was a fair amount of work being done on a P5.js app that was very similar to the Processing IDE, but it has been deprecated - see info on that here: [https://github.com/processing/p5.js-editor](https://github.com/processing/p5.js-editor)
+
+I do not suggest using the app for this reason. This means we will need to put a little more work into getting things started, but you'll get used to it very quickly.
+
+- Follow the guide here: [https://p5js.org/get-started/](https://p5js.org/get-started/)
+- Very useful information on converting Processing sketches to P5.js: [https://github.com/processing/p5.js/wiki/Processing-transition](https://github.com/processing/p5.js/wiki/Processing-transition)
+- Check out the [examples](https://p5js.org/examples/) and the [reference](https://p5js.org/reference/).
+
+------
+------
+------
 
 ### Homework Overview
 
-- make a markdown file README.md for your <username>.github.io repo.
-- read chapter 1-2 of Eloquent Javascript
+- Make a markdown file README.md for your *<username>*.github.io repo.
+- Read chapter 1-2 of Eloquent Javascript
+- Watch [Dan Shiffman's introduction to P5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- Convert an old Processing sketch from your Code 1 homework to P5.js and get it running on your github.io page. Submit the link to canvas.
