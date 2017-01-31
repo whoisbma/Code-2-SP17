@@ -106,7 +106,7 @@ if (numA == numB) {
 // but careful, two equal sign operator ("==") comparisons will also return true here:
 var strA = "5";
 if (numA == strA) {
-	console.log("'equal' because of 'type juggling!'")
+	console.log("'equal' because of automatic type conversion!")
 }
 
 // so use the triple equal sign operator ("===") to take type into consideration:
@@ -117,13 +117,47 @@ if (numA === strA) {
 }
 ```
 
-- interpreted, untyped, dynamic
-- vars, functions, loops, math, logging
-- running js in the browser
-- embedding javascript in an html file
-- linking javascript in an html file
+We can run Javascript in the browser directly, accessing any data that exists from page load. Try pressing *command-option-I* to access the developer console to write some basic Javascript.
 
-**p5.js**
+We also can write Javascript directly in our html files by including it within a <script> tag.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This page executes some Javascript</title>
+	<script>
+		for (var i = 0; i < 10; i++) {
+			console.log(i);
+		}
+	</script>
+</head>
+<body>
+	<p>Woohoo Javascript!</p>
+</body>
+</html>
+```
+
+HTML files full of javascript text might be a little messy looking, so we might want to separate our JS files from our HTML and link them.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This page executes some external Javascript</title>
+	<script src="./myScript.js"></script>
+</head>
+<body>
+	<p>Woohoo external Javascript!</p>
+</body>
+</html>
+```
+
+When we use Javascript libraries, we need to link them in this way. One of the JS libraries we will use is...
+
+------
+
+**P5.JS**
 - processing remade in javascript
 - lauren mccarthy
 - p5 app no longer supported
