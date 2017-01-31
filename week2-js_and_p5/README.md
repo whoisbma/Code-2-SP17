@@ -52,10 +52,9 @@
 
 ![browser to server](https://github.com/whoisbma/Code-2-SP17/blob/master/week2-js_and_p5/browser2server.gif?raw=true "Browser to server")
 
+The web as we experience it via browsers basically boils down to this. We can look at this in much more detail but this is the essence of what happens when we load a page on the internet. The browser sends a message off to a target server which asks the server to send back a file - a *HTTP GET Request* - and the server responds by looking for that file locally, then sending it back to the browser. The browser looks at the markup designating how that page is displayed, then renders it accordingly.
 
-- browser sends HTTP request to server
-- server sends back html and other files
-- browser loads html and executes javascript
+The other thing that browsers do nowadays is to execute *Javascript*.
 
 **javascript**
 - interpreted, untyped, dynamic
