@@ -62,7 +62,6 @@ Final - 30%
 - *Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
 
 **Week 3 - February 6**
-- P5 sample files
 - HTML canvas element, HTML DOM interaction
 - APIs in P5.js, JSON, data visualization
 - Wordnik, New York Times, openweathermap
