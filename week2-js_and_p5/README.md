@@ -1,4 +1,4 @@
-## Week 2 - Class Intro, Terminal & Github Review
+## Week 2 - SUBLIME TEXT, MARKDOWN, JAVASCRIPT, P5.JS
 
 ###### January 30, 2017
 
@@ -49,6 +49,10 @@
 ------
 
 **BROWSERS, WEBSITES, AND WEBSERVERS**
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
 - browser sends HTTP request to server
 - server sends back html and other files
 - browser loads html and executes javascript
