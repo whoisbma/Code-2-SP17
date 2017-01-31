@@ -119,7 +119,7 @@ if (numA === strA) {
 
 We can run Javascript in the browser directly, accessing any data that exists from page load. Try pressing *command-option-I* to access the developer console to write some basic Javascript.
 
-We also can write Javascript directly in our html files by including it within a <script> tag.
+We also can write Javascript directly in our html files by including it within a ```<script>``` tag.
 
 ```
 <!DOCTYPE html>
