@@ -50,7 +50,7 @@
 
 **BROWSERS, WEBSITES, AND WEBSERVERS**
 
-![browser to server](https://github.com/whoisbma/Code-2-SP17/blob/master/week2-js_and_p5/browser2server.gif?raw=true "Browser to server 1")
+![browser to server](https://github.com/whoisbma/Code-2-SP17/blob/master/week2-js_and_p5/browser2server.gif?raw=true "Browser to server")
 
 
 - browser sends HTTP request to server
