@@ -178,7 +178,8 @@ I do not suggest using the app for this reason. This means we will need to put a
 
 ### Homework Overview
 
-- Make a markdown file README.md for your *<username>*.github.io repo.
-- Read chapter 1-2 of Eloquent Javascript
-- Watch [Dan Shiffman's introduction to P5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+1. Make sure you are set up with Sublime Text. Install Package Control and try some packages.
+2. Make a markdown file README.md for your *<username>*.github.io repo.
+3. Read Chapters 1-2 of [Eloquent Javascript](http://eloquentjavascript.net/)
+4. Watch [Dan Shiffman's introduction to P5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - Convert an old Processing sketch from your Code 1 homework to P5.js and get it running on your github.io page. Submit the link to canvas.
