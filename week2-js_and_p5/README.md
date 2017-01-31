@@ -64,12 +64,57 @@ Javascript is a [high-level](https://en.wikipedia.org/wiki/High-level_programmin
 
 Unlike when using Processing, we don't have to declare specific data types, like *integers*, *floats*, and *strings* - we only create ***var*** variables. Everything can be a var, essentially. This makes Javascript a very easy-going language, which will handle a lot of things for you under the hood that in a stricter language we would need to be explicit about. However this also results in harder to find bugs and common mistakes for beginners.
 
+```
+// create a variable containing a number
+var myNum = 10;
+// create a variable containing a string
+var myStr = "hello";
+// create a variable containing an array of numbers
+var myArr = [0,1,2,3,4];
+```
+
 It's also important to note that even though we don't declare data types explicitly, variables do have types hidden away from this. We can see them by using the ```typeof``` function.
 
 ```
 var myVar = 10;
 console.log(typeof(myVar));
 // result will be 'number'
+```
+
+Syntax for Javascript is otherwise very similar to what we learned in Processing - writing functions, loops, conditionals, and other functionality is very similar.
+
+```
+// print out 0 to 9
+for (var i = 0; i < 10; i++) {
+	console.log(i);
+}
+
+// a function that prints "Hello!"
+function sayHello() {
+	console.log("Hello!");
+}
+
+// check to see if two variables have the same value
+var numA = 5;
+var numB = 10;
+if (numA == numB) {
+	console.log('equal!');
+} else {
+	console.log('not equal!');
+}
+
+// but careful, two equal sign operator ("==") comparisons will also return true here:
+var strA = "5";
+if (numA == strA) {
+	console.log("'equal' because of 'type juggling!'")
+}
+
+// so use the triple equal sign operator ("===") to take type into consideration:
+if (numA === strA) {
+	console.log("this will definitely return false");
+} else {
+	console.log("false!");
+}
 ```
 
 - interpreted, untyped, dynamic
@@ -88,4 +133,3 @@ console.log(typeof(myVar));
 
 - make a markdown file README.md for your <username>.github.io repo.
 - read chapter 1-2 of Eloquent Javascript
-- 
