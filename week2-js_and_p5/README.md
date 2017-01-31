@@ -38,14 +38,15 @@
 
 **SUBLIME TEXT**
 - Sublime Text is a basically a fancy text editor. This is in contrast to Integrated Development Environments (like XCode or Processing) that also handle compiling and executing your code - Sublime Text doesn't do that by itself. However it is deceptively powerful. We'll get more into what Sublime Text offers throughout the semester.
-- fun shortcuts
-- command palette
-- package control
-- installing packages
-- changing user settings
-- gitgutter
-- color pick
-- markdown preview sublime text package
+- [Fun shortcuts](https://www.cheatography.com/martinprins/cheat-sheets/sublime-text-3-osx/) - some of my favorites are multiple cursors, moving whole lines, and *tab* vs. *shift-tab* to change indentation in and out.
+- Command Palette - press ***command-shift-P*** or ***ctrl-shift-P***
+- Package Control - open the Command Palette and search for install package control. A must-do. This will let you install external packages for Sublime Text that help do all sorts of different things. You install them and use them via the Command Palette. Try:
+	- [GitGutter](https://packagecontrol.io/packages/GitGutter) for tracking changes since your last git commit.
+	- Custom themes like [Soda](https://packagecontrol.io/packages/Theme%20-%20Soda)
+	- [Markdown Preview](https://packagecontrol.io/packages/Markdown%20Preview) for quick previews of .md files.
+	- [Sidebar Enhancements](https://packagecontrol.io/packages/SideBarEnhancements) for some extra sidebar functionality.
+
+------
 
 **BROWSERS, WEBSITES, AND WEBSERVERS**
 - browser sends HTTP request to server
