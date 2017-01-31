@@ -190,6 +190,14 @@ Then visit http://localhost:8000 on your browser.
 
 There are some caveats. The python simple server is relatively slow and displaying content like video will have some issues. But it is enough for what we need it for for now.
 
+For Windows:
+
+1. Download WampServer from http://www.wampserver.com/en/.
+2. Install WampServer and follow instructions.
+3. The “www” directory will be automatically created (usually c:\wamp\www).
+4. Create a subdirectory in “www” and put your HTML/JS files inside.
+5. Open your internet browser and go to the URL : http://localhost/yourfile.html.
+
 ------
 ------
 ------
