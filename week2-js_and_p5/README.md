@@ -188,6 +188,8 @@ Or if you are using Python 3, type:
 
 Then visit http://localhost:8000 on your browser.
 
+To close the process, hit *Control-C*.
+
 There are some caveats. The python simple server is relatively slow and displaying content like video will have some issues. But it is enough for what we need it for for now.
 
 For Windows, you should be able to do the same as above in your command line environment, but you'll probably need to download [Python](https://www.python.org/downloads/windows/) first. Python comes preinstalled on MacOS so Mac users won't have to. 
