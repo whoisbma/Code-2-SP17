@@ -2,6 +2,12 @@
 
 ###### February 6, 2017
 
+**Sublime Linter**
+
+Linters check for syntax issues in your code. I highly recommend installing SublimeLinter and JSHint for Sublime Text for some additional help recognizing bugs and problematic Javascript in Sublime Text.
+
+[http://www.sublimelinter.com/en/latest/](http://www.sublimelinter.com/en/latest/)
+
 **Javascript Strings**
 
 In many programming languages, strings are not basic data types like integers or floats. Instead they are full fledged *objects* that contain both member variables/fields and functions. Strings in javascript are no different. Some of the string methods we'll be using are:
@@ -55,10 +61,12 @@ console.log(myStr.split(" "));		// will print out ["hello", "world!"];
 console.log(myStr.replace("hello", "goodbye"));		// will print out "goodbye world!"
 ```
 
+The important thing to remember is that calling this method on a string *doesn't change the string itself* - you have to assign its *result* to a string if you want to save it.
 
-creating variables
-creating functions
-functions 
+```
+myStr = myStr.replace("hello", "goodbye"); 	// will replace the contents of myStr with "goodbye world!"
+```
+
 
 - simple javascript quiz
 	- javascript objects
