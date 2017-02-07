@@ -124,6 +124,9 @@ Also its very important to make sure you understand the usage of HTML Element [I
  
 ------
 
+**Examples**
+
+You'll notice there are a ton of example sketches in the code. They are all running at [http://whoisbma.github.io/code2/week03/](http://whoisbma.github.io/code2/week03/). Go through each one.
 
 homework-
 - p5 sketch that is modified via interaction with HTML elements
