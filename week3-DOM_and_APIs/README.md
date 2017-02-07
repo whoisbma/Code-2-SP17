@@ -114,34 +114,15 @@ As done in class, basic Javascript is fully capable of accessing the DOM, via fu
 
 `var returnedDivElement = document.getElementById('myDiv')` 
 
-... but you can also use simplified P5.js functions to do this.
+... but you can also use simplified P5.js functions to do this. You just need to ensure that the p5.dom.js library is linked in your html - the standard library (p5.js or p5.min.js) does not contain this functionality!
 
 I'm not going to write it out here because there is already an excellent guide on the P5.js wiki. It also introduces the concept of Event Listeners. Go through all of it!
 
 [https://github.com/processing/p5.js/wiki/Beyond-the-canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 
+Also its very important to make sure you understand the usage of HTML Element [IDs](http://www.w3schools.com/tags/att_global_id.asp) vs. [classes](http://www.w3schools.com/tags/att_global_class.asp). Let me know if you need more guidance on brushing up on this kind of basic HTML, but the Code Academy tutorial on HTML and CSS linked to on Day 1 is a good resource.
+ 
 ------
-
-
-
-- what is the DOM
-https://www.w3.org/TR/DOM-Level-2-Core/introduction.html
-- what are some HTML elements?
-- go over posting links to other pages in github.io pages instead of github.com pages
-- what is a canvas element
-- p5 dom library
-- storing pointers and calling methods
-- using parent()
-- using position
-- creating other HTML elements
-- element listeners
-- assigning classes
-- assigning style
-- removing elements
-
-https://github.com/processing/p5.js/wiki/Beyond-the-canvas
-http://whoisbma.github.io/kaiju-name/
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
 
 
 homework-
