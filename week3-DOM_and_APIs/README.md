@@ -77,7 +77,9 @@ myStr = myStr.replace("hello", "goodbye"); 	// will replace the contents of mySt
 
 ![DOM](http://www.w3schools.com/js/pic_htmltree.gif "DOM")
 
-The DOM is a specification for how HTML is structured. Whenever we write some basic HTML, such as:
+The DOM is a specification for how HTML documents is structured.
+
+Whenever you write some basic HTML, such as:
 
 ```
 <html>
@@ -92,15 +94,23 @@ The DOM is a specification for how HTML is structured. Whenever we write some ba
 </html>
 ```
 
-... we are writing a basic DOM tree. 
+... you are writing a basic DOM tree. 
 
 The top-level parent node is `<html>`, followed by `<head>` and `<body>` as sibling child nodes. We can see this because `<html>` opens at the top and closes at the bottom, and `<head>` and `<body>` are independent of one another.
 
 The `<head>` node has one child node, `<title>`, and `<body>` has a `<div>` child which has one `<p>` child.
 
-All HTML in the DOM tree works this way and all nodes are a whats known as an HTML Element.
+All HTML in the DOM tree works this way - parents and children - and all nodes are a what is known as a [HTML Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element). A `<p>` paragraph node is an HTML element, just as a `<div>` or `<body>`.
+
+What gives Javascript a lot of power is that it has access to the DOM, and is able to do many things with it - changing existing elements, removing them, adding new ones, and so on. The DOM also has the ability to execute javascript attached to a given element. Similarly, Javascript can also access, create, and change all CSS styles in the page.
+
+When you write `createCanvas()` in some javascript code using the p5.js library, it actually creates an HTML element called `<canvas>` which HTML5 is able to use to draw arbitrarily to a defined area. Just by calling this one line in a p5.js sketch you are already modifying the DOM.
+
+------
 
 
+
+Javascript is also able to create Events.
 
 
 - what is the DOM
