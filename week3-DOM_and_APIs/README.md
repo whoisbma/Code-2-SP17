@@ -2,11 +2,15 @@
 
 ###### February 6, 2017
 
+------
+
 **Sublime Linter**
 
 Linters check for syntax issues in your code. I highly recommend installing SublimeLinter and JSHint for Sublime Text for some additional help recognizing bugs and problematic Javascript in Sublime Text.
 
 [http://www.sublimelinter.com/en/latest/](http://www.sublimelinter.com/en/latest/)
+
+------
 
 **Javascript Strings**
 
@@ -67,10 +71,38 @@ The important thing to remember is that calling this method on a string *doesn't
 myStr = myStr.replace("hello", "goodbye"); 	// will replace the contents of myStr with "goodbye world!"
 ```
 
+------
 
-- simple javascript quiz
-	- javascript objects
-- sublime linter
+**The Document Object Model (DOM)** 
+
+![DOM](http://www.w3schools.com/js/pic_htmltree.gif "DOM")
+
+The DOM is a specification for how HTML is structured. Whenever we write some basic HTML, such as:
+
+```
+<html>
+	<head>
+		<title>Titles are super great</title>
+	</head>
+	<body>
+		<div>
+			<p>Welcome to The Page</p>
+		</div>
+	</body>
+</html>
+```
+
+... we are writing a basic DOM tree. 
+
+The top-level parent node is `<html>`, followed by `<head>` and `<body>` as sibling child nodes. We can see this because `<html>` opens at the top and closes at the bottom, and `<head>` and `<body>` are independent of one another.
+
+The `<head>` node has one child node, `<title>`, and `<body>` has a `<div>` child which has one `<p>` child.
+
+All HTML in the DOM tree works this way and all nodes are a whats known as an HTML Element.
+
+
+
+
 - what is the DOM
 https://www.w3.org/TR/DOM-Level-2-Core/introduction.html
 - what are some HTML elements?
