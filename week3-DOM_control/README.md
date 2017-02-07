@@ -4,6 +4,22 @@
 
 ------
 
+**Homework Overview**
+
+* Practice the use of basic string functions in Javascript, overviewed below.
+* Read [Eloquent Javascript Chapter 3 and 4](http://eloquentjavascript.net/)
+* Go over [this guide to P5 and the DOM]([https://github.com/processing/p5.js/wiki/Beyond-the-canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas), also listed below.
+* You'll notice there are a bunch of example sketches in this directory. They are all running at [http://whoisbma.github.io/code2/week03/](http://whoisbma.github.io/code2/week03/). Go through each one and use them as reference when working on your homework.
+* Create a page that uses both the canvas and HTML DOM elements. Use your generative design skills from Code 1 to create a visual algorithmic piece running in the canvas, with controls in the DOM. Try using Sliders, Inputs, and Buttons. 
+
+You'll need to use callbacks to register changes to your DOM elements, which will change variables in your p5 code. Make sure you spend time understanding this concept and ask in the board if you are running into problems.
+
+Use the examples as as starting point, especially the object oriented style code in the first few examples.
+
+A simple example would be a particle system that has sliders in the page that control size, lifetime, color, and behaviors of the particles.
+
+------
+
 **Sublime Linter**
 
 Linters check for syntax issues in your code. I highly recommend installing SublimeLinter and JSHint for Sublime Text for some additional help recognizing bugs and problematic Javascript in Sublime Text.
@@ -122,11 +138,3 @@ I'm not going to write it out here because there is already an excellent guide o
 
 Also its very important to make sure you understand the usage of HTML Element [IDs](http://www.w3schools.com/tags/att_global_id.asp) vs. [classes](http://www.w3schools.com/tags/att_global_class.asp). Let me know if you need more guidance on brushing up on this kind of basic HTML, but the Code Academy tutorial on HTML and CSS linked to on Day 1 is a good resource.
  
-------
-
-**Examples**
-
-You'll notice there are a ton of example sketches in the code. They are all running at [http://whoisbma.github.io/code2/week03/](http://whoisbma.github.io/code2/week03/). Go through each one.
-
-homework-
-- p5 sketch that is modified via interaction with HTML elements
