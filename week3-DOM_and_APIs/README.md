@@ -104,13 +104,24 @@ All HTML in the DOM tree works this way - parents and children - and all nodes a
 
 What gives Javascript a lot of power is that it has access to the DOM, and is able to do many things with it - changing existing elements, removing them, adding new ones, and so on. The DOM also has the ability to execute javascript attached to a given element. Similarly, Javascript can also access, create, and change all CSS styles in the page.
 
-When you write `createCanvas()` in some javascript code using the p5.js library, it actually creates an HTML element called `<canvas>` which HTML5 is able to use to draw arbitrarily to a defined area. Just by calling this one line in a p5.js sketch you are already modifying the DOM.
+When you write `createCanvas()` in some javascript code using the p5.js library, it actually creates an HTML element called `<canvas>` which HTML5 is able to use to draw arbitrarily to a defined area. Just by calling this one line in a p5.js sketch you are already modifying the DOM - it is creating a canvas element with the specified width and height, then appending it to the document body.
 
 ------
 
+**P5.js and the DOM**
 
+As done in class, basic Javascript is fully capable of accessing the DOM, via functions like 
 
-Javascript is also able to create Events.
+`var returnedDivElement = document.getElementById('myDiv')` 
+
+... but you can also use simplified P5.js functions to do this.
+
+I'm not going to write it out here because there is already an excellent guide on the P5.js wiki. It also introduces the concept of Event Listeners. Go through all of it!
+
+[https://github.com/processing/p5.js/wiki/Beyond-the-canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
+
+------
+
 
 
 - what is the DOM
