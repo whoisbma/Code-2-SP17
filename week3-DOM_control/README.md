@@ -1,4 +1,4 @@
-## Week 3 - HTML AND THE DOM, APIs
+## Week 3 - HTML AND THE DOM
 
 ###### February 6, 2017
 
