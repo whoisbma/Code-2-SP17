@@ -72,7 +72,7 @@ Or in HTML:
 
 ```<div contenteditable="true"></div>```
 
-###### Example 04-load-file
+###### Example 03-load-file
 
 To create a button that loads a file selection window, you would call createFileInput with a callback containing the file data as an argument. In that callback you can see the file type with the `type` field (i.e. text, image, etc.), see the size with the `size` field, and the contents of the file itself with the `data` field.
 
@@ -97,11 +97,11 @@ Creating an area of the page you can drag and drop a file to is very similar. Ch
 
 ------
 
-#### Split vs. SplitTokens()
+#### Split(), SplitTokens(), Join()
 
 An important distinction is the difference between vanilla Javascript's `split()`, p5.js's `split()`, and p5.js's `splittokens()`.
 
-`split()` takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter).
+`split()` takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter, or separator).
 
 ```
 var sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -135,16 +135,16 @@ for (var i = 0; i < numlist.length; i++) {
 console.log(sum);
 ```
 
-vs join()
+`join()` also has a [p5.js](https://p5js.org/reference/#/p5/join) and [basic Javscript version](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join). Its the same idea in reverse - take an array and form it into a string.
+
+For example, the p5.js approach:
 
 ```
 var words = ['it','was','a','dark','and','stormy','night'];
 var sentence = join(words, ' ');
 ```
 
-- to make a dadaist poem
-
-
+------
 
 - live code flesch index
 
