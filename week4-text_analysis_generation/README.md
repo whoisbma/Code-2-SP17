@@ -2,7 +2,7 @@
 
 ###### February 13, 2017
 
-**Callbacks Review**
+**REVIEW: Callbacks**
 
 A *callback* is any function that is called by another function, that takes it as an argument. A lot of the time, a callback is called when *something* happens - for example an event registered to an HTML element.
 
