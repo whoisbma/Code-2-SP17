@@ -39,11 +39,15 @@ button.mousePressed(function() {
 
 All of the code we've been writing so far involves self-contained data. When we create a string, we create it as a variable and give it a value written in quotes. But if we want to load a larger amount of text, like for example, a paragraph, or a whole book, as well as give a user the ability to load in any text they choose instead of some predefined variable that we create, we have a number of different techniques that we can apply.
 
-We could: 
+We could do any of the following:
 * Create a button that loads an external file into the page from the user's filesystem.
 * Create an area of editable text and save its value into a variable we've defined.
 * Create an editable HTML element and save its HTML text whenever it's been changed.
 * Create a div on the page that a user can drag a text file from the user's computer to.
+
+These approaches can all be done via basic javascript, p5.js functionality, or any number of other javascript libraries out there.
+
+
 
 - textarea element via createElement()
 
