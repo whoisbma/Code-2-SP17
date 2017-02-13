@@ -2,6 +2,8 @@
 
 ###### February 13, 2017
 
+Note the shared location of /libraries/ in this directory!
+
 ------
 
 **REVIEW: Callbacks**
