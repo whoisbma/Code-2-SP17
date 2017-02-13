@@ -52,7 +52,7 @@ ASOIDJSAOIDJKLSADJKSA EXAMPLESXD!
 If we create a textarea HTML element via p5.js, you would write something like this:
 
 ```
-var area = createElememt('textarea', 'Some text to start initially.');
+var area = createElement('textarea', 'Some text to start initially.');
 ```
 
 and then register a callback to a button that would save the value of the textarea to a variable.
@@ -68,8 +68,7 @@ Or in HTML:
 
 ```<div contenteditable="true"></div>```
 
-
-- createFileInput() text file
+To create a button that loads a file selection window, you would call createFileInput with a callback containing the file data as an argument. In that callback you can see the file type with the `type` field (i.e. text, image, etc.), see the size with the `size` field, and the contents of the file itself with the `data` field.
 
 ```
 var fileSelect = createFileInput(gotFile);
@@ -85,6 +84,10 @@ function gotFile(file) {
   }
 }
 ```
+
+Creating an area of the page you can drag and drop a file to is very similar. Check out the example.
+
+------
 
 - split() vs. splittokens()
 
