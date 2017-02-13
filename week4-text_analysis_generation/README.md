@@ -6,7 +6,7 @@ Note the shared location of /libraries/ in this directory!
 
 ------
 
-**REVIEW: Callbacks**
+#### REVIEW: Callbacks
 
 A *callback* is any function that is called by another function, that takes it as an argument. A lot of the time, a callback is called when *something* happens - for example an event registered to an HTML element.
 
@@ -37,7 +37,7 @@ button.mousePressed(function() {
 
 ------
 
-**Loading External Text**
+#### Loading External Text
 
 All of the code we've been writing so far involves self-contained data. When we create a string, we create it as a variable and give it a value written in quotes. But if we want to load a larger amount of text, like for example, a paragraph, or a whole book, as well as give a user the ability to load in any text they choose instead of some predefined variable that we create, we have a number of different techniques that we can apply.
 
@@ -49,7 +49,7 @@ We could do any of the following (and more):
 
 These approaches can all be done via basic javascript, p5.js functionality, or any number of other javascript libraries out there.
 
-***Example 01-textarea***
+###### Example 01-textarea
 
 If we create a textarea HTML element via p5.js, you would write something like this:
 
@@ -59,7 +59,7 @@ var area = createElement('textarea', 'Some text to start initially.');
 
 and then register a callback to a button that would save the value of the textarea to a variable.
 
-***Example 02-contenteditable***
+###### Example 02-contenteditable
 
 To create an editable HTML element, you have to set the contenteditable value to true. In p5.js:
 
@@ -72,7 +72,7 @@ Or in HTML:
 
 ```<div contenteditable="true"></div>```
 
-***Example 04-load-file***
+###### Example 04-load-file
 
 To create a button that loads a file selection window, you would call createFileInput with a callback containing the file data as an argument. In that callback you can see the file type with the `type` field (i.e. text, image, etc.), see the size with the `size` field, and the contents of the file itself with the `data` field.
 
@@ -91,11 +91,16 @@ function gotFile(file) {
 }
 ```
 
-***Example 04-drag-drop***
+###### Example 04-drag-drop
 
 Creating an area of the page you can drag and drop a file to is very similar. Check out the example.
 
 ------
+
+#### Split vs. SplitTokens()
+
+An important distinction is the difference between vanilla Javascript's `split()` and p5.js's `splittokens()`.
+
 
 - split() vs. splittokens()
 
