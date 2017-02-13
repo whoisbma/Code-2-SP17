@@ -99,33 +99,33 @@ Creating an area of the page you can drag and drop a file to is very similar. Ch
 
 #### Split vs. SplitTokens()
 
-An important distinction is the difference between vanilla Javascript's `split()` and p5.js's `splittokens()`.
+An important distinction is the difference between vanilla Javascript's `split()`, p5.js's `split()`, and p5.js's `splittokens()`.
 
-
-- split() vs. splittokens()
+`split()` takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter).
 
 ```
-var spaceswords = 'The quick brown fox jumps over the lazy dog.';
-// Splits by any space
-var list1 = split(spacewords, ' ');
-console.log(list1[0]);
-console.log(list1[1]);
+var sentence = 'The quick brown fox jumps over the lazy dog.';
+var result = sentence.split(' ');
+// returns ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+```
 
-var commaswords = 'The, quick, brown, fox, jumps, over, the, lazy, dog.';
-// Splits by any comma followed by a space
-var list2 = split(commaswords, ', ')
-for (var i = 0; i < list2.length; i++) {
-  console.log(i + ': ' + list2[i]);
-}
+P5.js ALSO has a `split()` method, one that is not a method of the string object but instead lives on its own. However they both do the same thing.
 
+```
+var result = split(sentence, ' ');
+```
+
+Finally P5.js also has `splitTokens()`, which doesn't take a single delimitter but rather a whole string of delimiters!
+
+```
 var mishmosh = 'The quick,brown, fox jumps,over,the lazy, dog.';
 // Splits by any comma OR a space!
 var list2 = splitTokens(mishmosh, ', ')
-for (var i = 0; i < list2.length; i++) {
-  console.log(i + ': ' + list2[i]);
-}
+```
 
-// Calculate sum of a list of numbers in a string
+Let's say you want to calculate the sum of a list of numbers in a string:
+
+```
 var numbers = '8,67,5,309';
 var numlist = numbers.split(',');
 var sum = 0;
