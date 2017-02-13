@@ -47,7 +47,7 @@ We could do any of the following (and more):
 
 These approaches can all be done via basic javascript, p5.js functionality, or any number of other javascript libraries out there.
 
-ASOIDJSAOIDJKLSADJKSA EXAMPLESXD!
+***Example 01-textarea***
 
 If we create a textarea HTML element via p5.js, you would write something like this:
 
@@ -56,6 +56,8 @@ var area = createElement('textarea', 'Some text to start initially.');
 ```
 
 and then register a callback to a button that would save the value of the textarea to a variable.
+
+***Example 02-contenteditable***
 
 To create an editable HTML element, you have to set the contenteditable value to true. In p5.js:
 
@@ -67,6 +69,8 @@ p.attribute('contenteditable', 'true');
 Or in HTML:
 
 ```<div contenteditable="true"></div>```
+
+***Example 04-load-file***
 
 To create a button that loads a file selection window, you would call createFileInput with a callback containing the file data as an argument. In that callback you can see the file type with the `type` field (i.e. text, image, etc.), see the size with the `size` field, and the contents of the file itself with the `data` field.
 
@@ -84,6 +88,8 @@ function gotFile(file) {
   }
 }
 ```
+
+***Example 04-drag-drop***
 
 Creating an area of the page you can drag and drop a file to is very similar. Check out the example.
 
