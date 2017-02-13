@@ -2,6 +2,8 @@
 
 ###### February 13, 2017
 
+------
+
 **REVIEW: Callbacks**
 
 A *callback* is any function that is called by another function, that takes it as an argument. A lot of the time, a callback is called when *something* happens - for example an event registered to an HTML element.
@@ -35,9 +37,13 @@ button.mousePressed(function() {
 
 **Loading External Text**
 
-Say we want to load an external string into the browser.
+All of the code we've been writing so far involves self-contained data. When we create a string, we create it as a variable and give it a value written in quotes. But if we want to load a larger amount of text, like for example, a paragraph, or a whole book, as well as give a user the ability to load in any text they choose instead of some predefined variable that we create, we have a number of different techniques that we can apply.
 
-What's the best way do to that?
+We could: 
+* Create a button that loads an external file into the page from the user's filesystem.
+* Create an area of editable text and save its value into a variable we've defined.
+* Create an editable HTML element and save its HTML text whenever it's been changed.
+* Create a div on the page that a user can drag a text file from the user's computer to.
 
 - textarea element via createElement()
 
