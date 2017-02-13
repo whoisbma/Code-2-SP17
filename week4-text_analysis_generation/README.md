@@ -47,8 +47,7 @@ We could do any of the following (and more):
 
 These approaches can all be done via basic javascript, p5.js functionality, or any number of other javascript libraries out there.
 
-
-
+ASOIDJSAOIDJKLSADJKSA EXAMPLESXD!
 
 If we create a textarea HTML element via p5.js, you would write something like this:
 
