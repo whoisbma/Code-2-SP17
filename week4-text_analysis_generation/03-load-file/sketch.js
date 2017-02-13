@@ -1,7 +1,5 @@
-
-
 function setup() {
-  var fileSelect = createFileInput(gotFile, 'multiple');
+  var fileSelect = createFileInput(gotFile);
   //The choose file button can be generated fairly easily with p5.js 
   //using createFileInput(). createFileInput() requires only a single 
   //argument, a callback for when the file(s) are loaded. 
