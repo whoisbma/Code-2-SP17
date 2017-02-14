@@ -13,23 +13,22 @@ function setup() {
 
 function saveText() {
   savedText = textarea.value();
-  createP("original text: " + savedText);
+  createP("ORIGINAL TEXT: " + savedText);
 
   // get the array of all the words from the savedText variable
   var textArr = splitTokens(savedText, '.:;?! !@#$%^&*()+');
   var length = textArr.length;
 
-  // create a new array to hold the result of the reshuffling
-  var jumbledArr = [];
+  // how many elements to remove?
+  var numToRemove = textArr.length/2;
 
-  // loop through the array, pick a random index, add it to the new array, and remove it from the old array
-  for (var i = 0; i < length; i++) {
+  // loop through the array, pick a random index, remove it from the array
+  for (var i = 0; i < numToRemove; i++) {
     var whichIndex = int(random(textArr.length));
-    jumbledArr.push(textArr[whichIndex]);
     textArr.splice(whichIndex, 1);
   }
 
-  // join the new jumbled array into a single string, separated by spaces
-  var newString = join(jumbledArr, ' ');
-  createP(newString);
+  // join the array into a single string, separated by spaces
+  var newString = join(textArr, ' ');
+  createP("NEW TEXT: " newString);
 }
