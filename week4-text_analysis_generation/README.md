@@ -189,7 +189,7 @@ Creating an area of the page you can drag and drop a file to is very similar. Ch
 
 #### Split(), SplitTokens(), Join()
 
-An important distinction is the difference between vanilla Javascript's `split()`, p5.js's `split()`, and p5.js's `splittokens()`.
+An important distinction is the difference between vanilla Javascript's `split()`, p5.js's `split()`, and p5.js's `splitTokens()`.
 
 [`split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter, or separator).
 
