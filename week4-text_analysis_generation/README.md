@@ -4,6 +4,8 @@
 
 Note the shared location of /libraries/ in this directory!
 
+------
+
 #### Homework Overview
 
 1. Review all the notes below.
@@ -45,6 +47,8 @@ Some other suggestions for starting points:
     * Display text in the canvas in relationship to its appearance in the text. (size? color? orientation?)
     
     * Use a very deliberately chosen text source material.
+
+------
 
 #### DADA and "the Cut Up Method", Oulipo, Erasures
 
