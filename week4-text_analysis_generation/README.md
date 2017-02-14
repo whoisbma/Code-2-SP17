@@ -4,6 +4,54 @@
 
 Note the shared location of /libraries/ in this directory!
 
+#### Homework Overview
+
+1. Go through all the review notes below.
+2. Make 
+
+#### DADA and "the Cut Up Method", Oulipo, Erasures
+
+Tristan Tzara - Romanian and French avant-garde poet, essayist, performance artist, one of the founders and central figures of the anti-establishment, anti-war, anti-bourgeois Dada movement of the early 20th century. Dada has ties to other avant garde artists of the time, notably Marcel Duchamp. 
+
+Legend has it that at a surrealist rally in the 1920, Tzara created a poem by pulling words out of a hat, and a riot ensued.
+
+From wikipedia:
+
+*Many Dadaists believed that the 'reason' and 'logic' of bourgeois capitalist society had led people into war. They expressed their rejection of that ideology in artistic expression that appeared to reject logic and embrace chaos and irrationality. For example, George Grosz later recalled that his Dadaist art was intended as a protest "against this world of mutual destruction."*
+
+*According to Hans Richter Dada was not art: it was "anti-art." Dada represented the opposite of everything which art stood for. Where art was concerned with traditional aesthetics, Dada ignored aesthetics. If art was to appeal to sensibilities, Dada was intended to offend.*
+
+*As Hugo Ball expressed it, "For us, art is not an end in itself ... but it is an opportunity for the true perception and criticism of the times we live in."*
+
+*A reviewer from the American Art News stated at the time that "Dada philosophy is the sickest, most paralyzing and most destructive thing that has ever originated from the brain of man." Art historians have described Dada as being, in large part, a "reaction to what many of these artists saw as nothing more than an insane spectacle of collective homicide."*
+
+**TO MAKE A DADAIST POEM**
+
+1. Take a newspaper.
+2. Take some scissors.
+3. Choose from this paper an article of the length you want to make your poem.
+4. Cut out the article.
+5. Next carefully cut out each of the words that makes up this article and put them all in a bag.
+6. Shake gently.
+7. Next take out each cutting one after the other.
+8. Copy conscientiously in the order in which they left the bag.
+9. Them poem will resemble you.
+10. And there you are – an infinitely original author of charming sensibility, even though unappreciated by the vulgar herd.
+
+[Burrough's cut up method](http://www.writing.upenn.edu/~afilreis/88v/burroughs-cutup.html)
+
+ERASURES:
+
+*Erasure is a form of found poetry or found art created by erasing words from an existing text in prose or verse and framing the result on the page as a poem. The results can be allowed to stand in situ or they can be arranged into lines and/or stanzas. Erasure is a way to give an existing piece of writing a new set of meanings, questions, or suggestions. It lessens the trace of authorship but requires purposeful decision making. What does one want done to the original text? Does a gesture celebrate, denigrate, subvert, or efface the source completely? One can erase intuitively by focusing on musical and thematic elements or systematically by following a specific process regardless of the outcome.*
+
+[Erasure](https://en.wikipedia.org/wiki/Erasure_(artform))
+
+**OULIPO**
+
+*Oulipo (French pronunciation: short for French: Ouvroir de littérature potentielle; roughly translated: "workshop of potential literature") is a loose gathering of (mainly) French-speaking writers and mathematicians who seek to create works using constrained writing techniques.*
+
+*Constraints are used as a means of triggering ideas and inspiration, most notably Perec's "story-making machine" which he used in the construction of Life: A User's Manual. As well as established techniques, such as lipograms (Perec's novel A Void) and palindromes, the group devises new techniques, often based on mathematical problems such as the Knight's Tour of the chess-board and permutations.*
+
 ------
 
 #### REVIEW: Callbacks
@@ -170,9 +218,7 @@ From wikipedia:
 
 Reader's Digest magazine has a readability index of about 65, Time magazine scores about 52, an average grade six student's written assignment (age of 12) has a readability index of 60–70 (and a reading grade level of six to seven), and the Harvard Law Review has a general readability score in the low 30s. The highest (easiest) readability score possible is around 120 (e.g. every sentence consisting of only two one-syllable words; "The cat sat on the mat." scores 116). The score does not have a theoretical lower bound. It is possible to make the score as low as wanted by arbitrarily including words with many syllables. The sentence "This sentence, taken as a reading passage unto itself, is being used to prove a point." has a readability of 74.1. The sentence "The Australian platypus is seemingly a hybrid of a mammal and reptilian creature." scores 24.4 as it has 26 syllables and 13 words. While Amazon calculates the text of Moby Dick as 57.9,[9] one particularly long sentence about sharks in chapter 64 has a readability score of −146.77.[10] One sentence in the beginning of "Swann's Way", by Marcel Proust, has a score of −515.1.[11] Even further, the chemical name for titin, 189,819 characters long, scores a −6,128,472, with 72,443 syllables. The U.S. Department of Defense uses the reading ease test as the standard test of readability for its documents and forms. Florida requires that life insurance policies have a Flesch reading ease score of 45 or greater.
   
-We'll be using an example by Daniel Shiffman and picking it apart a little bit.
-
-Dan Shiffman, go!
+The example we did in class was derived from code from Daniel Shiffman's A2Z course. It was a simplified version as we didn't have a particularly good check for syllables, among other things. Below is the explanation from the full [Daniel Shiffman example](http://shiffman.net/a2z/intro/):
 
 Our pseudo-code will look something like this:
 
@@ -288,9 +334,4 @@ The Flesch index is by no means the only test. There are lots of alternatives. M
 
 [Gunning fog index](https://en.wikipedia.org/wiki/Gunning_fog_index)
 
-
-
-
 ------
-
-**Homework Overview**
