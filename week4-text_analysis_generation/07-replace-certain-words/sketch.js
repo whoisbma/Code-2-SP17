@@ -13,7 +13,7 @@ function setup() {
 
 function saveText() {
   savedText = textarea.value();
-  createP("original text: " + savedText);
+  createP("ORIGINAL TEXT: " + savedText);
 
   // get the array of all the words from the savedText variable
   var textArr = splitTokens(savedText, '.:;?! !@#$%^&*()+');
