@@ -6,12 +6,15 @@ Note the shared location of /libraries/ in this directory!
 
 #### Homework Overview
 
-1. Go through all the review notes below.
-2. Create your own text generation method that accepts some body of text, and produces some output of newly generated text. 
+1. Review all the notes below.
+2. Review all the code in this directory.
+3. Create your own text generation method that accepts some body of text, and produces some output of newly generated text. 
 
 Some text processing like the Flesch index is one viable way to analyze text but the main task here is to generate some new text - either based on a static algorithm or perhaps something influenced by some feature of the text itself. 
 
 Look to the DADA, Oulipo and other methods for inspiration. The techniques available to you are things like, searching and replacing key words, removing words, or shuffling things up.
+
+I should be able to go onto your github.io site, load in some arbitrary text, and get out some result.
 
 Some other suggestions for starting points:
 
