@@ -229,6 +229,8 @@ var words = ['it','was','a','dark','and','stormy','night'];
 var sentence = join(words, ' ');
 ```
 
+Also note the use of the [array `splice()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) in the later examples - it removes or adds elements to an array at a given position.
+
 ------
 
 #### Flesch Readability Index
