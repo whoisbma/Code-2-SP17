@@ -11,6 +11,7 @@ Note the shared location of /libraries/ in this directory!
 1. Review all the notes below.
 2. Review all the code in this directory.
 3. Create your own text generation method that accepts some body of text, and produces some output of newly generated text. 
+4. Extra credit: create your own text analysis algorithm like the Flesch index and have it influence the results of your text generation method.
 
 Some text processing like the Flesch index is one viable way to analyze text but the main task here is to generate some new text - either based on a static algorithm or perhaps something influenced by some feature of the text itself. 
 
