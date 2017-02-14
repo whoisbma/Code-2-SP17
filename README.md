@@ -62,26 +62,29 @@ Final - 30%
 - *Homework: P5.js sketch, Eloquent Javascript Ch. 1-2*
 
 **Week 3 - February 6**
+- Basic string manipulation methods
 - HTML canvas element, HTML DOM interaction
-- APIs in P5.js, JSON, data visualization
-- Wordnik, New York Times, openweathermap
-- SublimeLinter
-- *Homework: Data visualization in P5.js, Eloquent Javascript Ch. 3*
+- SublimeLinter for JS linting
+- *Homework: DOM interaction with P5.js sketch, Eloquent Javascript Ch. 3-4*
 
 **Week 4 - February 13**
 - Oulipo, DADA and the cut-up method, Erasures
 - String and text manipulation in Javascript
-- Regular Expressions
-- *Homework: String manipulation experiment with Regex, Eloquent Javascript Ch. 4*
+- Text analysis, readability index
+- *Homework: Text generation/analysis*
 
 **Week 5 - February 27**
-- Text analysis, readability index, concordances
+- Regular Expressions
+-  concordances
 - Poetic forms
+- APIs in P5.js, JSON, data visualization
+- Wordnik, New York Times, openweathermap
 - Browser extensions part 1
 - *Homework: Start midterm*
 
 **Week 6 - March 6**
 - Browser extensions part 2
+
 - *Homework: Complete midterm*
 
 **Week 7 - March 13**
