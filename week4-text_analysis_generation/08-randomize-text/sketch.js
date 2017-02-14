@@ -31,5 +31,5 @@ function saveText() {
 
   // join the new jumbled array into a single string, separated by spaces
   var newString = join(jumbledArr, ' ');
-  createP("NEW TEXT: " newString);
+  createP("NEW TEXT: " + newString);
 }

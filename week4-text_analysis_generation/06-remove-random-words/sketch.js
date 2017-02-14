@@ -30,5 +30,5 @@ function saveText() {
 
   // join the array into a single string, separated by spaces
   var newString = join(textArr, ' ');
-  createP("NEW TEXT: " newString);
+  createP("NEW TEXT: " + newString);
 }
