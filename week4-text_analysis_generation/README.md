@@ -186,7 +186,7 @@ Creating an area of the page you can drag and drop a file to is very similar. Ch
 
 An important distinction is the difference between vanilla Javascript's `split()`, p5.js's `split()`, and p5.js's `splittokens()`.
 
-`split()` takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter, or separator).
+[`split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) takes a single argument, and is a class method of the string object. It returns an array of strings taken out of the original string, separated by the supplied argument (a delimiter, or separator).
 
 ```
 var sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -194,13 +194,13 @@ var result = sentence.split(' ');
 // returns ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
 ```
 
-P5.js ALSO has a `split()` method, one that is not a method of the string object but instead lives on its own. However they both do the same thing.
+P5.js ALSO has a [`split()`](https://p5js.org/reference/#/p5/split) method, one that is not a method of the string object but instead lives on its own. However they both do the same thing.
 
 ```
 var result = split(sentence, ' ');
 ```
 
-Finally P5.js also has `splitTokens()`, which doesn't take a single delimitter but rather a whole string of delimiters!
+Finally P5.js also has [`splitTokens()`](https://p5js.org/reference/#/p5/splitTokens), which doesn't take a single delimitter but rather a whole string of delimiters!
 
 ```
 var mishmosh = 'The quick,brown, fox jumps,over,the lazy, dog.';
