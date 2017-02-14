@@ -7,7 +7,39 @@ Note the shared location of /libraries/ in this directory!
 #### Homework Overview
 
 1. Go through all the review notes below.
-2. Make 
+2. Create your own text generation method that accepts some body of text, and produces some output of newly generated text. 
+
+Some text processing like the Flesch index is one viable way to analyze text but the main task here is to generate some new text - either based on a static algorithm or perhaps something influenced by some feature of the text itself. 
+
+Look to the DADA, Oulipo and other methods for inspiration. The techniques available to you are things like, searching and replacing key words, removing words, or shuffling things up.
+
+Some other suggestions for starting points:
+
+  * Create a programmatic version of the one you workshopped in class.
+  
+  * Create a re-making of an oulipo or Dada technique.
+  
+  * Create an algorithm that creates a slightly different effect each time you run it
+  
+  * Create a [mad libs generator](http://www.projectlabyrinth.com/MadLibs/MadLibGen.php).
+  
+  * Create an actual [magnetic poetry simulator](http://www.nsftools.com/tips/MagneticPoetry.htm) that generates the words from arbitrary string input.
+  
+  * Have your finished code be a function that takes in a string as input to generate the result.   
+
+  * Techniques to try:
+  
+    * Replace all words *x* with word *y*.
+    
+    * Add word *x* after instances of word *y*.
+    
+    * Remove all words that belong to array["\_\_\_\_", "\_\_\_\_", "_\_\_\_", etc.];
+    
+    * Split all words from a given string, re-order according to ...
+    
+    * Display text in the canvas in relationship to its appearance in the text. (size? color? orientation?)
+    
+    * Use a very deliberately chosen text source material.
 
 #### DADA and "the Cut Up Method", Oulipo, Erasures
 
