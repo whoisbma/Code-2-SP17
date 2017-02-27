@@ -75,19 +75,18 @@ Final - 30%
 
 **Week 5 - February 27**
 - Regular Expressions
--  concordances
-- Poetic forms
-- APIs in P5.js, JSON, data visualization
-- Wordnik, New York Times, openweathermap
 - Browser extensions part 1
 - *Homework: Start midterm*
 
 **Week 6 - March 6**
 - Browser extensions part 2
-
+- Poetic forms
+- Concordances
 - *Homework: Complete midterm*
 
 **Week 7 - March 13**
+- APIs in P5.js, JSON, data visualization
+- Wordnik, New York Times, openweathermap
 - Text Generation, markov chains, n-grams, grammars
 - Rita.js, Project Gutenberg
 - Node.js, NPM, Express
