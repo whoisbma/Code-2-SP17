@@ -21,16 +21,16 @@ There is no submission due in canvas for next week, but we will review your prog
 
 1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
 2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
-3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.**
+3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week. Load it into Chrome by going to Tools -> Extensions -> Load Unpacked Extension.**
 4. **Do the Daniel Shiffman tutorial to review.**
 
 ***References:***
 
-Tutorials:
+**Tutorials:**
 
 - [Daniel Shiffman on Regex - extremely useful. Much of this material came from his A2Z class](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w)
 
-Projects:
+**Projects:**
 
   - [https://twitter.com/molleindustria/status/572411714723037184](https://twitter.com/molleindustria/status/572411714723037184)
   - [http://www.joannemcneil.com/gallery/emotional-labor/](http://www.joannemcneil.com/gallery/emotional-labor/)
@@ -45,7 +45,7 @@ Projects:
   - [http://accessibleicon.org/](http://accessibleicon.org/)
   - [http://turbulence.org/project/the-shiftspace-commissions-program-2/](http://turbulence.org/project/the-shiftspace-commissions-program-2/)
 
-"Fun":
+**"Fun":**
 
   - [Regex Golf](http://www.alf.nu/RegexGolf)
 
@@ -125,7 +125,7 @@ In JS, Regular Expressions, like strings, are objects. You can create a regex ob
 
 `var regex = new RegExp('findme');`
 
-A more common way is to use forward slashes. Just like a string is an array of characters between quotes, a regex is an array of characters between forward slashes.
+A more common way is to use forward slashes - analogous to the use of quotation marks to capture strings.
 
 `var regex = /findme/;`
 
@@ -166,10 +166,9 @@ If the regular expression includes capturing parentheses, the groups would also 
 var txt = "Phone numbers: 212-555-1234 and 917-555-4321 and 646.555.9876.";
 var regex = /(\d+)[-.]\d+[-.]\d+/;
 var results = txt.match(regex);
-//the resulting array is not what we want:
-//['212-555-1234', '212'] - the full phone number is index 0 and captured group is index 1
-//in order to capture everything, we'll need to add several steps.
 ```
+
+The resulting array is not what we want: ['212-555-1234', '212'] - the full phone number is index 0 and captured group is index 1. In order to capture everything, we'll need to add several steps.
 
 ##### Flags
 
@@ -255,3 +254,6 @@ var regex = /([aeiou]+)/g;
 var replaced = txt.replace(regex, '$1$1');
 console.log(replaced);
 ```
+
+*Some of this material is from Daniel Shiffman's online A2Z course and has been paraphrased here.*
+*The simple Chrome extension we used is inspired by Tega Brain's Speculative Bureacracy material.*
