@@ -21,7 +21,7 @@ There is no submission due in canvas for next week, but we will review your prog
 
 1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
 2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
-3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week. Load it into Chrome by going to Tools -> Extensions -> Load Unpacked Extension.**
+3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week. Load it into Chrome by going to Tools -> Extensions -> Check Developer Mode -> Load Unpacked Extension.**
 4. **Do the Daniel Shiffman tutorial to review.**
 
 ***References:***
