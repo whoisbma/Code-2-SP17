@@ -6,7 +6,9 @@
 
 ### Homework Overview
 
-The midterm is due two weeks from now, on March 13. There is no submission due in canvas for next week, but do the following and I will review your progress in class.
+The midterm is due two weeks from now, on March 13. 
+
+There is no submission due in canvas for next week, but we will review your progress in class.
 
 ***The midterm assignment is to create a Chrome extension that accomplishes the following:***
 
@@ -20,22 +22,32 @@ The midterm is due two weeks from now, on March 13. There is no submission due i
 1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
 2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
 3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.**
+4. **Do the Daniel Shiffman tutorial to review.**
 
 ***References:***
 
-- [https://twitter.com/molleindustria/status/572411714723037184](https://twitter.com/molleindustria/status/572411714723037184)
-- [http://www.joannemcneil.com/gallery/emotional-labor/](http://www.joannemcneil.com/gallery/emotional-labor/)
-- [https://visitsteve.com/made/add-art-art-replaces-ads/](https://visitsteve.com/made/add-art-art-replaces-ads/)
-- [https://chrome.google.com/webstore/detail/rose-colored-window/djlhhopgmokkhnljjlkclknddoododoc](https://chrome.google.com/webstore/detail/rose-colored-window/djlhhopgmokkhnljjlkclknddoododoc)
-- [https://github.com/wheresaddie/girlsvsgit](https://github.com/wheresaddie/girlsvsgit)
-- [http://www.allisonburtch.net/illuminator/](http://www.allisonburtch.net/illuminator/)
-- [http://nytimes-se.com/](http://nytimes-se.com/)
-- [https://chrome.google.com/webstore/detail/bookindy-%E2%80%93-browse-amazon/pkojccpfacognnfgbafojnnlkeifcmhe?hl=en](https://chrome.google.com/webstore/detail/bookindy-%E2%80%93-browse-amazon/pkojccpfacognnfgbafojnnlkeifcmhe?hl=en)
-- [http://siberart.com/projects/untitled-project/north-america/](http://siberart.com/projects/untitled-project/north-america/)
-- [http://lav.io/2014/05/transform-any-text-into-a-patent-application/](http://lav.io/2014/05/transform-any-text-into-a-patent-application/)
-- [http://accessibleicon.org/](http://accessibleicon.org/)
-- [http://turbulence.org/project/the-shiftspace-commissions-program-2/](http://turbulence.org/project/the-shiftspace-commissions-program-2/)
-- [Regex Golf](http://www.alf.nu/RegexGolf)
+Tutorials:
+
+- [Daniel Shiffman on Regex - extremely useful. Much of this material came from his A2Z class](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YEypLuls7iidwHMdCM6o2w)
+
+Projects:
+
+  - [https://twitter.com/molleindustria/status/572411714723037184](https://twitter.com/molleindustria/status/572411714723037184)
+  - [http://www.joannemcneil.com/gallery/emotional-labor/](http://www.joannemcneil.com/gallery/emotional-labor/)
+  - [https://visitsteve.com/made/add-art-art-replaces-ads/](https://visitsteve.com/made/add-art-art-replaces-ads/)
+  - [https://chrome.google.com/webstore/detail/rose-colored-window/djlhhopgmokkhnljjlkclknddoododoc](https://chrome.google.com/webstore/detail/rose-colored-window/djlhhopgmokkhnljjlkclknddoododoc)
+  - [https://github.com/wheresaddie/girlsvsgit](https://github.com/wheresaddie/girlsvsgit)
+  - [http://www.allisonburtch.net/illuminator/](http://www.allisonburtch.net/illuminator/)
+  - [http://nytimes-se.com/](http://nytimes-se.com/)
+  - [https://chrome.google.com/webstore/detail/bookindy-%E2%80%93-browse-amazon/pkojccpfacognnfgbafojnnlkeifcmhe?hl=en](https://chrome.google.com/webstore/detail/bookindy-%E2%80%93-browse-amazon/pkojccpfacognnfgbafojnnlkeifcmhe?hl=en)
+  - [http://siberart.com/projects/untitled-project/north-america/](http://siberart.com/projects/untitled-project/north-america/)
+  - [http://lav.io/2014/05/transform-any-text-into-a-patent-application/](http://lav.io/2014/05/transform-any-text-into-a-patent-application/)
+  - [http://accessibleicon.org/](http://accessibleicon.org/)
+  - [http://turbulence.org/project/the-shiftspace-commissions-program-2/](http://turbulence.org/project/the-shiftspace-commissions-program-2/)
+
+"Fun":
+
+  - [Regex Golf](http://www.alf.nu/RegexGolf)
 
 ------
 
