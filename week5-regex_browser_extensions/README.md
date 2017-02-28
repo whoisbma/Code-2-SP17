@@ -8,14 +8,14 @@
 
 The midterm is due two weeks from now, on March 13. There is no submission due in canvas for next week, but do the following and I will review your progress in class.
 
-The midterm assignment is to create a Chrome extension that accomplishes the following:
+***The midterm assignment is to create a Chrome extension that accomplishes the following:***
 
 * Transforms the experience of browsing a website or the internet generally via some critical or poetic intent.
   * *Think about the examples shown in class and included below. How do they, by transforming the experience of consuming media, or overtly transforming the media itself, comment on culture and society? Or alternatively, how do they create an aesthetic experience that illuminates some quality? You should aspire to this level of rhetoric in your project rather than making something purely functional - even something functional can have a deeper dimension of intent.*
 * Makes use of at least one regular expression in the searching, analysis, or replacing of text.
   * *You could use a regular expression to find all `<a href` links and turn them into something else. Or find instances of all words that match your criteria, then use the Chrome extension popup to display some graphic analysis using p5js.*
 
-References:
+***References:***
 
 - [https://twitter.com/molleindustria/status/572411714723037184](https://twitter.com/molleindustria/status/572411714723037184)
   - [http://www.joannemcneil.com/gallery/emotional-labor/](http://www.joannemcneil.com/gallery/emotional-labor/)
@@ -31,11 +31,11 @@ References:
   - [http://turbulence.org/project/the-shiftspace-commissions-program-2/](http://turbulence.org/project/the-shiftspace-commissions-program-2/)
   - [Regex Golf](http://www.alf.nu/RegexGolf)
 
-For moving forward please do the following:
+***For moving forward please do the following:***
 
-1. Review all the Regex notes and give them a try in your code editor and in Javascript.
-2. Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.
-3. Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.
+1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
+2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
+3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.**
 
 ------
 
