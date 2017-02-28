@@ -15,6 +15,12 @@ The midterm is due two weeks from now, on March 13. There is no submission due i
 * Makes use of at least one regular expression in the searching, analysis, or replacing of text.
   * *You could use a regular expression to find all `<a href` links and turn them into something else. Or find instances of all words that match your criteria, then use the Chrome extension popup to display some graphic analysis using p5js.*
 
+***For moving forward please do the following:***
+
+1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
+2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
+3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.**
+
 ***References:***
 
 - [https://twitter.com/molleindustria/status/572411714723037184](https://twitter.com/molleindustria/status/572411714723037184)
@@ -30,12 +36,6 @@ The midterm is due two weeks from now, on March 13. There is no submission due i
 - [http://accessibleicon.org/](http://accessibleicon.org/)
 - [http://turbulence.org/project/the-shiftspace-commissions-program-2/](http://turbulence.org/project/the-shiftspace-commissions-program-2/)
 - [Regex Golf](http://www.alf.nu/RegexGolf)
-
-***For moving forward please do the following:***
-
-1. **Review all the Regex notes and give them a try in your code editor and in Javascript.**
-2. **Prototype the regex-related functionality of what your midterm will be and be prepared to discuss it in class.**
-3. **Get the basic Chrome extension example from class working. We'll be diving deeper into Chrome extensions next week.**
 
 ------
 
