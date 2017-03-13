@@ -1,5 +1,57 @@
-### WIP
+## WEEK 6 & 7 - BROWSER EXTENSIONS
 
+###### March 6 & 13, 2017
+
+------
+
+### More Midterm details
+
+Also changed version in Week 5 to match this.
+
+The midterm is due on March 27.
+
+***The midterm assignment is to create a Chrome extension that accomplishes the following:***
+
+* Transforms the experience of browsing a website or the internet generally via some critical or poetic intent.
+  * *Think about the examples shown in class and included in week 5's README. How do they, by transforming the experience of consuming media, or overtly transforming the media itself, comment on culture and society? Or alternatively, how do they create an aesthetic experience that illuminates some quality? You should aspire to this level of rhetoric in your project rather than making something purely functional - even something functional can have a deeper dimension of intent.*
+* Makes use of at least one regular expression in the searching, analysis, or replacing of text.
+  * This could be as simple as a basic regular expression that counts words, or several regular expressions designed to match specific phrases, or more functional elements like email addresses and phone numbers.
+* Uses at least one of the following chrome extension techniques:
+  * routing data from a background script listener to the active page
+  * data gathered from running a content script on the active page to the popup
+  * or sending data from the popup to the active page.
+* Extra credit for actually packaging and submitting your extension to Google!
+
+Although there are a number of technical requirements listed above, a significant portion of your performance on this midterm will be assessed based on creativity.
+
+***Starting points on moving forward:***
+* Running an algorithm to analyze and visualize text on the page in a popup - can use P5.js or another approach. (Remember the Flesch index?)
+* Replacing words on webpages to some critical intent (there are many examples of this, needs to be creative/critical). Images are also a possibility - but you'll need to find a reason to use regex still. You could use a regex instead of getElementByTagName if you really wanted but try to find a better reason.
+* Use a regex to pull text out of the page, then rearranging and displaying them in the popup, Dada-poetry style - or possibly more interesting, on the page itself.
+
+***I highly suggest going through the trouble of reading the Chrome extensions documentation yourself, especially to note what areas you do and don't understand: [https://developer.chrome.com/extensions](https://developer.chrome.com/extensions)***
+
+Also note it is possible to view the source code of any extension that you've added to chrome: [https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/](https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/)
+
+#### Code from Class
+
+**01-set-page-color_P5**
+
+**02-set-page-color_P5**
+
+**03-set-page-color_JS**
+
+**04-set-page-color_background**
+
+**05-replace-image-local**
+
+**06-replace-image-URL**
+
+**07-regex-word-replace**
+
+**08-regex-word-replace-onclick**
+
+**09-word-to-popup**
 
 1. Change background color:
 OK _ 1 - first with HTML button

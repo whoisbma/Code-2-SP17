@@ -6,7 +6,7 @@
 
 ### Homework Overview
 
-The midterm is due two weeks from now, on March 13. 
+The midterm is due ~~two weeks from now,~~ on ~~March 13~~ March 27. 
 
 There is no submission due in canvas for next week, but we will review your progress in class.
 
@@ -15,7 +15,19 @@ There is no submission due in canvas for next week, but we will review your prog
 * Transforms the experience of browsing a website or the internet generally via some critical or poetic intent.
   * *Think about the examples shown in class and included below. How do they, by transforming the experience of consuming media, or overtly transforming the media itself, comment on culture and society? Or alternatively, how do they create an aesthetic experience that illuminates some quality? You should aspire to this level of rhetoric in your project rather than making something purely functional - even something functional can have a deeper dimension of intent.*
 * Makes use of at least one regular expression in the searching, analysis, or replacing of text.
-  * *You could use a regular expression to find all `<a href` links and turn them into something else. Or find instances of all words that match your criteria, then use the Chrome extension popup to display some graphic analysis using p5js.*
+  * This could be as simple as a basic regular expression that counts words, or several regular expressions designed to match specific phrases, or more functional elements like email addresses and phone numbers.
+* Uses at least one of the following chrome extension techniques:
+  * routing data from a background script listener to the active page
+  * data gathered from running a content script on the active page to the popup
+  * or sending data from the popup to the active page.
+* Extra credit for actually packaging and submitting your extension to Google!
+
+Although there are a number of technical requirements listed above, a significant portion of your performance on this midterm will be assessed based on creativity.
+
+*** Starting points on moving forward: ***
+* Running an algorithm to analyze and visualize text on the page in a popup - can use P5.js or another approach.
+* Replacing words on webpages to some critical intent (there are many examples of this, needs to be creative/critical).
+* Use a regex to pull text out of the page, then rearranging and displaying them in the popup, Dada-poetry style. 
 
 ***For moving forward please do the following:***
 
