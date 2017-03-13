@@ -55,157 +55,98 @@ The functionality of this example is the same as 01 and 02, except it omits a po
 
 **05-replace-image-local**
 
+This example uses a content script to programmatically replace all the images on the page with a local extension file image. Notice that the doge.png file is made accessible by adding it to the manifest.json file in `web_accessible_resources`. Rather than using a regex to pull the image tags manually, we use `document.getElementsByTagName('img')` for a simple solution, then looping through them to replace the source URL with `chrome.extension.getURL("doge.png");`
+
 **06-replace-image-URL**
+
+This example works the same as above, but replaces images with ones located online, using the placekittens.com service to generate image URLs. It therefore doesn't need `web_accessible_resources` in the manifest.json.
 
 **07-regex-word-replace**
 
+This example uses a content script to traverse the DOM to find all text nodes, then using a regular expression to replace all words with "hello". There is a simpler but more flawed way to do it via `innerHTML.replace` but you should try to use the more complex method.
+
 **08-regex-word-replace-onclick**
+
+This does the same as the 07, but the word replace script is injected by clicking on the browser action icon, registered to an event listener in a background script.
 
 **09-word-to-popup**
 
-1. Change background color:
-OK _ 1 - first with HTML button
-OK _ 2 - next with background.js script
-OK _ 3 - vanilla Javascript version
+Arguably the most complex of all the examples as it involves two-way communication. This has permissions for the browser tabs in the manifest.json as well as a content script called replace.js.
 
-2. scrape page for instances of a word
-OK _ 1 - change word to something else (content script)
-OK - 2 - change word to something else (via background process)
+Replace.js waits to hear a message called "getCount" from the popup. When it gets it, it runs a simple regex to count the number of words on the active page. Meanwhile, popup.js sends the "getCount" message once the p5 code gets to setup(), and takes the response to save to the variable `numWords`, also using it to update the div displaying the number. Finally in draw() this variable is used to set the size of an ellipse and some text.
 
-3. connecting to p5 canvas in popup
-OK _ - display visualization of word count in popup
-- flesch index in popup
-- 
+The message-sending code in popup.js:
 
-3a. append canvas to page... hm
-
-4. Replace images on page
-OK _ 1 - replace image with extension-stored image
-OK _ 2 - replace images with other images online
-OK _ 3 - replace images with canvases
-
-
-BROWSER ACTIONS: 
-- permanently displayed to the right of the address bar
-- good if the extension can work on any website, or if its website agnostic.
-
-PAGE ACTIONS:
-- only displayed on certain pages, icon is displayed inside the address bar
-- needs permissions array to include the URL that the extension has access to.
-- permissions also includes things like "tabs", "activetab", "storage" part of the chrome API.
-- the page_action object contains information about the extension's UI.
-{
-	"permissions": [
-		"http://www.example.com/",
-		"https://www.example.com/"
-	],
-	"page_action": {
-		"default_title": "Extension Name",
-		"default_icon": "path/logo.jpg",
-		"default_popup": "path/popup.html"
-	}
-}
-
-CONTENT SCRIPTS:
-- Javascript needs to be injected into the page by the browser. There needs to be one script that runs in the background that inserts the custom code into the page (programmatic injection). This file bootstraps the rest of the extension.
-- Then you need the actual code used for the extension's logic to live in another file that gets injected into the page. These two scripts are executed in two different environments and have access to different stuff (tab objects, window, document, console, etc.)
-
-1 - Background Script
-- run by the browser in a background window.
-- add to manifest.json: 
-{
-	"background": {
-		"scripts": ["path/to/bootstrap.js"],
-		"persistent": false
-	},
-}
-- persistence differentiates a background page from an event page. higher performance.
-
-		Add "persistent": false to your manifest as shown above.
-
-		If your extension uses window.setTimeout() or window.setInterval(), switch to using the alarms API instead. DOM-based timers won't be honored if the event page shuts down.
-
-		Similarly, other asynchronous HTML5 APIs like notifications and geolocation will not complete if the event page shuts down. Instead, use equivalent extension APIs, like notifications.
-
-		If your extension uses, extension.getBackgroundPage, switch to runtime.getBackgroundPage instead. The newer method is asynchronous so that it can start the event page if necessary before returning it.
-
-
-- this script runs in a background window and has access to all the chrome APIs, but no access to the content on the page that's currently being viewed in the tab.
-- this is where you interact with the browser, telling it when to inject your code, initialize the extension, etc.
-- you'll also need to add "tabs" to your permissions array in manifest.json in order to access the tabs API.
-
-
-for example:
-
-// when the extension is first installed
-chrome.runtime.onInstalled.addListener(function(details) {
-    chrome.storage.sync.set({clean_news_feed: true});
+```
+chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+  chrome.tabs.sendMessage(tabs[0].id, {type: "getCount"}, function(response) {
+    numWords = response;
+    numWordsDiv.html(numWords);
+  });
 });
+```
 
-// listen for any changes to the URL of any tab.
-chrome.tabs.onUpdated.addListener(function(id, info, tab){
-    if (tab.url.toLowerCase().indexOf("facebook.com") > -1){
-        chrome.pageAction.show(tab.id);
-    }
+Notice that the `sendMessage` function lives inside of the `tabs.query` function. We use that to query the tabs in order to get the information on the current tab.
+
+Also the `{type: "getCount"}` object is what is defining the message we are sending to that tab. You could write this object out separately instead, or have an array of them.
+
+```
+var messageObject = {
+  type: "getCount"
+};
+
+chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+  chrome.tabs.sendMessage(tabs[0].id, messageObject, function(response) {
+    // do something with the response
+  });
 });
+```
 
+The message-listening code in replace.js:
 
-// update the icon when the user's settings change
-// chrome.storage.onChanged.addListener(function(changes, areaName){
-//     alert("changed settings");
-//     console.log("changed settings");
-//     if (localStorage["clean_news_feed"] == "true"){
-//         path = "active-icon.jpeg";
-//     } else {
-//         path = "inactive-icon.jpeg";
-//     }
-//     chrome.tabs.getCurrent( function(tab){
-//         chrome.pageAction.setIcon({
-//             "tabId": tab.id,
-//             "path": path
-//         });
-//     });
-// });
+```
+chrome.runtime.onMessage.addListener(
+  function(message, sender, sendResponse) {
+    switch(message.type) {
+      case "getCount":
+        var count = getAllWords();
+        sendResponse(count);
+        break;
+      default:
+        console.error("Unrecognised message: ", message);
+      }
+  }
+);
+```
 
-this says that whenever a tab is updated (i.e. URL changes), show the page action icon, and inject the extension's javascript into the page. you can also add some logic in here to check the tab's URL, etc.
+This code listens for an `onMessage` event, and when it receives one, checks `message.type` to see if it is `getCount`. If it is, it uses `sendResponse` to send the result of `getAllWords` to the sender.
 
-this background script is the only one that'll have access to the current Tab object and the chrome APIs so any interaction in the browser needs to happen in here.
+------
 
-Once the extension's javascript has been added to the page, that script has access to the document, window, and console of the actual page. From this script, you can interact with the DOM as you normally would - you just can't use variables or functions that were defined in the bootstrap script or on the webpage itself.
+General reminders/definitions:
 
-THE POPUP
+* BROWSER ACTIONS: 
+  * permanently displayed to the right of the address bar
+  * good if the extension can work on any website, or if its website agnostic.
 
-The popup is a simple HTML document that we pointed to in our manifest file under page_action["default_popup"].
+* PAGE ACTIONS:
+  * only displayed on certain pages, icon is displayed inside the address bar
+  * needs permissions array to include the URL that the extension has access to.
+  * permissions also includes things like "tabs", "activetab", "storage" part of the chrome API.
+  * the page_action object contains information about the extension's UI (i.e. `default_popup`).
 
-You can't run inline javascript in the HTML, you have to link to an external script.
+* CONTENT SCRIPTS:
+  * This is the script that has access to the website the visitor is on. Its like a script embedded in the html of the actual page.
+  * If your content script's code should always be injected, register it in the extension manifest using the content_scripts field.
+  * If you want to inject the code only sometimes, use the permissions field instead. Search for "match patterns."
+  * Using the content_scripts field, an extension can insert multiple content scripts into a page; each of these content scripts can have multiple JavaScript and CSS files. 
 
-THE CONTENT SCRIPT
+* BACKGROUND SCRIPTS:
+  * Run by the browser in a non-visible window. Can be used to add event listeners on the browser itself and send data from each component of the architecture.
+  * Another type of background script is an Event Page.
+  * Inserting a script into a page programmatically via a background listener is useful when your JavaScript or CSS code shouldn't be injected into every single page that matches the pattern — for example, if you want a script to run only when the user clicks a browser action's icon.
+  * To insert code into a page, your extension must have cross-origin permissions for the page. It also must be able to use the chrome.tabs module. 
 
-This is the script that has access to the website the visitor is on. Its like a script embedded in the html of the actual page.
-
-If your content script's code should always be injected, register it in the extension manifest using the content_scripts field.
-
-If you want to inject the code only sometimes, use the permissions field instead.
-
-Using the content_scripts field, an extension can insert multiple content scripts into a page; each of these content scripts can have multiple JavaScript and CSS files. 
-
-Inserting code into a page programmatically is useful when your JavaScript or CSS code shouldn't be injected into every single page that matches the pattern — for example, if you want a script to run only when the user clicks a browser action's icon.
-
-To insert code into a page, your extension must have cross-origin permissions for the page. It also must be able to use the chrome.tabs module. 
-
-"permissions": [
-  "activeTab"
-  or 
-  "tabs"
-],
-
-(essentially, activeTab grants the tabs permission temporarily).
-
-https://blog.hartleybrody.com/chrome-extension/
-
-MATCH PATTERNS: 
-https://developer.chrome.com/extensions/match_patterns
-
-WEB ACCESSIBLE RESOURCES:
-https://developer.chrome.com/extensions/manifest/web_accessible_resources
-
+* POPUPS
+  * The popup is a simple HTML document that we pointed to in our manifest file under page_action["default_popup"].
+  * You can't run inline javascript in the HTML, you have to link to an external script.

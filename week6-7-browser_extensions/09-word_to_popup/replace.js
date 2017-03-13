@@ -1,10 +1,10 @@
 
-// this code waits to hear from the user what 
+// this code waits to hear from the popup script 
 chrome.runtime.onMessage.addListener(
     function(message, sender, sendResponse) {
         switch(message.type) {
             case "getCount":
-            		var count = getAllWords();
+            	var count = getAllWords();
                 sendResponse(count);
                 break;
             default:
