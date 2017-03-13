@@ -51,6 +51,8 @@ This is a fancier, non-P5.js version of the first example, with color options!
 
 **04-set-page-color_background**
 
+The functionality of this example is the same as 01 and 02, except it omits a popup entirely and triggers the injection of a script based on a background listener. Notice that there is no `default_popup` field in the manifest.json, and that instead there is a `background` script. In that background.js file, the chrome browser action is registered to an event listener, that when clicked, calls `chrome.tabs.executeScript`.
+
 **05-replace-image-local**
 
 **06-replace-image-URL**
