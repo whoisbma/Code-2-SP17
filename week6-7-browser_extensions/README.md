@@ -121,9 +121,13 @@ chrome.runtime.onMessage.addListener(
 
 This code listens for an `onMessage` event, and when it receives one, checks `message.type` to see if it is `getCount`. If it is, it uses `sendResponse` to send the result of `getAllWords` to the sender.
 
+**10-append_p5_canvas**
+
+(*This code is from Tega Brain's Speculative Bureaucracy workshop. I'll be doing a pass on it.*)
+
 ------
 
-General reminders/definitions:
+### Reminders/definitions:
 
 * BROWSER ACTIONS: 
   * permanently displayed to the right of the address bar
