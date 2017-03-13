@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "Regex Word Replace",
+	"description": "Clicking on the icon will use a background script to inject a script that replaces a particular word found on the page",
+	"version": "1.0",
+
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Search and replace!"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	}
+}

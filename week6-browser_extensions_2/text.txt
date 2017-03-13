@@ -1,3 +1,0 @@
-replace images with canvases
-append canvas to page
-replace images with other images

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Replace page image with images on the internet",
+  "description": "Finds all image tags on the page and replaces them with images on the internet",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["replaceImages.js"]
+    }
+  ]
+}
