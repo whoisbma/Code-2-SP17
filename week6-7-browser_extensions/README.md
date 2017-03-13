@@ -33,13 +33,21 @@ Although there are a number of technical requirements listed above, a significan
 
 Also note it is possible to view the source code of any extension that you've added to chrome: [https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/](https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/)
 
-#### Code from Class
+------
+
+### Code from Class
 
 **01-set-page-color_P5**
 
+Creates a popup that uses P5.js to create a button. When that button is pressed, use the chrome API call `chrome.tabs.executeScript` to send inline code directly to the active tab. This requires a `tabs` permission in the manifest.json.
+
 **02-set-page-color_P5**
 
+This example is identical to the above, except it uses a linked script instead of inline javascript in the call to `chrome.tabs.executeScript`.
+
 **03-set-page-color_JS**
+
+This is a fancier, non-P5.js version of the first example, with color options!
 
 **04-set-page-color_background**
 
