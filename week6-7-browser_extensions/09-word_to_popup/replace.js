@@ -14,7 +14,7 @@ chrome.runtime.onMessage.addListener(
 );
 
 function getAllWords() {
-	var allText = document.body.innerText;
+    var allText = document.body.innerText;
 	var allWords = allText.split(/\s+/);
 	var numWords = allWords.length;
 
