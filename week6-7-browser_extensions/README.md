@@ -35,7 +35,9 @@ Also note it is possible to view the source code of any extension that you've ad
 
 ------
 
-### Code from Class
+### Code
+
+![01-04](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/1-4.png "01-04")
 
 **01-set-page-color_P5**
 
