@@ -41,6 +41,15 @@ Also note it is possible to view the source code of any extension that you've ad
 
 Creates a popup that uses P5.js to create a button. When that button is pressed, use the chrome API call `chrome.tabs.executeScript` to send inline code directly to the active tab. This requires a `tabs` permission in the manifest.json.
 
+You could do the same sort of thing to change the background color of other HTML elements, via a technique like:
+
+```
+var pElements = document.getElementsByTagName('p');
+for (var i = 0; i < pElements.length; i++) {
+  pElements[i].style['background-color'] = 'lightblue';
+}
+```
+
 **02-set-page-color_P5**
 
 This example is identical to the above, except it uses a linked script instead of inline javascript in the call to `chrome.tabs.executeScript`.
