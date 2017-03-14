@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "appending p5 sketch",
+	"description": "appends a p5 canvas to the page",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["p5.min.js", "p5.dom.min.js", "sketch.js"]
+		}
+	]
+}

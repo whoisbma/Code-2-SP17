@@ -78,6 +78,10 @@ This example uses a content script to traverse the DOM to find all text nodes, t
 
 This does the same as the 07, but the word replace script is injected by clicking on the browser action icon, registered to an event listener in a background script.
 
+**08a-regex-word-redacter**
+
+This code was adapted from a Daniel Shiffman A2Z example. Its another example of how you might filter text out of the innerHTML of a webpage. It ignores all tags and identifies the string 'the' - then replacing it with custom HTML including a new `<span>` class that has custom CSS in the attached stylesheet, "censoring" the words.
+
 **09-script-to-popup**
 
 Arguably the most complex of all the examples as it involves two-way communication. This has permissions for the browser tabs in the manifest.json as well as a content script called replace.js.
@@ -134,9 +138,13 @@ This code listens for an `onMessage` event, and when it receives one, checks `me
 
 This code is adapted from a Daniel Shiffman A2Z example. It does essentially a simpler version of 09 - sending a message to the content script which changes the style of the page.
 
-**10-append_p5_canvas**
+**10-p5-canvas-in-content-script**
 
-(*This code is from Tega Brain's Speculative Bureaucracy workshop. I'll be doing a pass on it.*)
+This is a simple way to get a p5 canvas appended to the page, but there are a few tricks. Check the code for details.
+
+**10a-p5-canvas-as-iframe**
+
+This code is from Tega Brain's Speculative Bureaucracy workshop. Its a fancier way to do essentially the same thing, but the p5 code is a separate script that is loaded as an **iframe** in the current page (basically a page within a page).
 
 ------
 
