@@ -78,7 +78,7 @@ This example uses a content script to traverse the DOM to find all text nodes, t
 
 This does the same as the 07, but the word replace script is injected by clicking on the browser action icon, registered to an event listener in a background script.
 
-**09-word-to-popup**
+**09-script-to-popup**
 
 Arguably the most complex of all the examples as it involves two-way communication. This has permissions for the browser tabs in the manifest.json as well as a content script called replace.js.
 
@@ -129,6 +129,10 @@ chrome.runtime.onMessage.addListener(
 ```
 
 This code listens for an `onMessage` event, and when it receives one, checks `message.type` to see if it is `getCount`. If it is, it uses `sendResponse` to send the result of `getAllWords` to the sender.
+
+**09a-popup_to_script**
+
+This code is adapted from a Daniel Shiffman A2Z example. It does essentially a simpler version of 09 - sending a message to the content script which changes the style of the page.
 
 **10-append_p5_canvas**
 
