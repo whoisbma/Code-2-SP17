@@ -35,7 +35,9 @@ Also note it is possible to view the source code of any extension that you've ad
 
 ------
 
-### Code from Class
+### Code
+
+![01-04](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/1-4.png "01-04")
 
 **01-set-page-color_P5**
 
@@ -62,6 +64,8 @@ This is a fancier, non-P5.js version of the first example, with color options!
 
 The functionality of this example is the same as 01 and 02, except it omits a popup entirely and triggers the injection of a script based on a background listener. Notice that there is no `default_popup` field in the manifest.json, and that instead there is a `background` script. In that background.js file, the chrome browser action is registered to an event listener, that when clicked, calls `chrome.tabs.executeScript`.
 
+![05-06](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/5-6.png "05-06")
+
 **05-replace-image-local**
 
 This example uses a content script to programmatically replace all the images on the page with a local extension file image. Notice that the doge.png file is made accessible by adding it to the manifest.json file in `web_accessible_resources`. Rather than using a regex to pull the image tags manually, we use `document.getElementsByTagName('img')` for a simple solution, then looping through them to replace the source URL with `chrome.extension.getURL("doge.png");`
@@ -69,6 +73,8 @@ This example uses a content script to programmatically replace all the images on
 **06-replace-image-URL**
 
 This example works the same as above, but replaces images with ones located online, using the placekittens.com service to generate image URLs. It therefore doesn't need `web_accessible_resources` in the manifest.json.
+
+![07-08](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/7-8.png "07-08")
 
 **07-regex-word-replace**
 
@@ -78,7 +84,13 @@ This example uses a content script to traverse the DOM to find all text nodes, t
 
 This does the same as the 07, but the word replace script is injected by clicking on the browser action icon, registered to an event listener in a background script.
 
-**09-word-to-popup**
+**08a-regex-word-redacter**
+
+This code was adapted from a Daniel Shiffman A2Z example. Its another example of how you might filter text out of the innerHTML of a webpage. It ignores all tags and identifies the string 'the' - then replacing it with custom HTML including a new `<span>` class that has custom CSS in the attached stylesheet, "censoring" the words.
+
+![09](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/9.png "09")
+
+**09-script-to-popup**
 
 Arguably the most complex of all the examples as it involves two-way communication. This has permissions for the browser tabs in the manifest.json as well as a content script called replace.js.
 
@@ -130,9 +142,19 @@ chrome.runtime.onMessage.addListener(
 
 This code listens for an `onMessage` event, and when it receives one, checks `message.type` to see if it is `getCount`. If it is, it uses `sendResponse` to send the result of `getAllWords` to the sender.
 
-**10-append_p5_canvas**
+**09a-popup_to_script**
 
-(*This code is from Tega Brain's Speculative Bureaucracy workshop. I'll be doing a pass on it.*)
+This code is adapted from a Daniel Shiffman A2Z example. It does essentially a simpler version of 09 - sending a message to the content script which changes the style of the page.
+
+![10](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/10.png "10")
+
+**10-p5-canvas-in-content-script**
+
+This is a simple way to get a p5 canvas appended to the page, but there are a few tricks. Check the code for details.
+
+**10a-p5-canvas-as-iframe**
+
+This code is from Tega Brain's Speculative Bureaucracy workshop. Its a fancier way to do essentially the same thing, but the p5 code is a separate script that is loaded as an **iframe** in the current page (basically a page within a page).
 
 ------
 
