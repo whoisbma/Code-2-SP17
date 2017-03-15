@@ -37,7 +37,7 @@ Also note it is possible to view the source code of any extension that you've ad
 
 ### Code
 
-![01-04](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/1-4.png "01-04")
+![01-04](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week06-07-browser_extensions/images/1-4.png "01-04")
 
 **01-set-page-color_P5**
 
@@ -64,7 +64,7 @@ This is a fancier, non-P5.js version of the first example, with color options!
 
 The functionality of this example is the same as 01 and 02, except it omits a popup entirely and triggers the injection of a script based on a background listener. Notice that there is no `default_popup` field in the manifest.json, and that instead there is a `background` script. In that background.js file, the chrome browser action is registered to an event listener, that when clicked, calls `chrome.tabs.executeScript`.
 
-![05-06](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/5-6.png "05-06")
+![05-06](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week06-07-browser_extensions/images/5-6.png "05-06")
 
 **05-replace-image-local**
 
@@ -74,7 +74,7 @@ This example uses a content script to programmatically replace all the images on
 
 This example works the same as above, but replaces images with ones located online, using the placekittens.com service to generate image URLs. It therefore doesn't need `web_accessible_resources` in the manifest.json.
 
-![07-08](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/7-8.png "07-08")
+![07-08](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week06-07-browser_extensions/images/7-8.png "07-08")
 
 **07-regex-word-replace**
 
@@ -88,7 +88,7 @@ This does the same as the 07, but the word replace script is injected by clickin
 
 This code was adapted from a Daniel Shiffman A2Z example. Its another example of how you might filter text out of the innerHTML of a webpage. It ignores all tags and identifies the string 'the' - then replacing it with custom HTML including a new `<span>` class that has custom CSS in the attached stylesheet, "censoring" the words.
 
-![09](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/9.png "09")
+![09](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week06-07-browser_extensions/images/9.png "09")
 
 **09-script-to-popup**
 
@@ -146,7 +146,7 @@ This code listens for an `onMessage` event, and when it receives one, checks `me
 
 This code is adapted from a Daniel Shiffman A2Z example. It does essentially a simpler version of 09 - sending a message to the content script which changes the style of the page.
 
-![10](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week6-7-browser_extensions/images/10.png "10")
+![10](https://raw.githubusercontent.com/whoisbma/Code-2-SP17/master/week06-07-browser_extensions/images/10.png "10")
 
 **10-p5-canvas-in-content-script**
 
