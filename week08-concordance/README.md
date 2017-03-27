@@ -315,4 +315,4 @@ Once you have that, `keys[(number of the word)]` corresponds to the word in text
 
 **Extra credit: **
 
-* *use TF-IDF or Bayesian statistical analysis - Check out [Dan Shiffman's implementation](https://www.youtube.com/watch?v=RPMYV-eb6lI), a lot of whose work informed this particular class topic*
+* *use TF-IDF or Bayesian statistical analysis - Check out [Dan Shiffman's implementation of TF-IDF](https://www.youtube.com/watch?v=RPMYV-eb6lI), a lot of whose work informed this particular class topic, and [this video on Bayes Theorum](https://www.youtube.com/watch?v=D8VZqxcu0I0)*
