@@ -301,6 +301,7 @@ Once we've gone through the process of counting the occurences in each category 
 * To do this you would take your javascript object with all the word counts, loop through it, and create graphics using them as data. 
 * You could create a bar chart (boring but ok), or bubbles, or any other visual form you feel like. You could say textSize(concordance[word[i]]) to directly impact the size of text based on the word count for example.
 * This is primarily an information design experiment to get you experimenting with the concordance.
+* The example will get you started with the concordance itself. Its up to you to use the canvas (via p5.js for example) or other means to visualize it.
 
 Some key code once you have the concordance working: 
 
