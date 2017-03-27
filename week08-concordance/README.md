@@ -313,7 +313,6 @@ This prints out the concordance and all the keys, after they have been sorted. M
 
 Once you have that, `keys[(number of the word)]` corresponds to the word in text, and `concordance[keys(number of the word)]` corresponds to the number of times that word appears. You can use the number of times the word appears to create a size variable for an ellipse, or a rotation speed for text that you draw on the screen, or any other thing you can imagine.
 
-**Alternatives: **
+**Extra credit: **
 
-* *Advanced: use TF-IDF or Bayesian statistical analysis.*
-* *Or create something else with a concordance entirely.*
+* *use TF-IDF or Bayesian statistical analysis - Check out [Dan Shiffman's implementation](https://www.youtube.com/watch?v=RPMYV-eb6lI), a lot of whose work informed this particular class topic*
