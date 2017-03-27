@@ -295,7 +295,7 @@ Once we've gone through the process of counting the occurences in each category 
 
 ### Homework
 
-**Make an improvement on a word cloud.** 
+**Make an improvement on a word cloud. Let a user input text onto the page, and then use the page to visualize the body of text that was entered.** 
 
 * How could you make a visual representation of word counts that conveys information more effectively, insightfully, or interestingly than a word cloud? 
 * To do this you would take your javascript object with all the word counts, loop through it, and create graphics using them as data. 
